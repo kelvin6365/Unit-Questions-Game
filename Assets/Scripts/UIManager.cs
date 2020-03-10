@@ -134,14 +134,14 @@ public class UIManager : MonoBehaviour
     }
     IEnumerator DisplayTimedResolution()
     {
-        yield return new WaitForSeconds(GameUtillity.ResolutionDelayTime);
+        yield return new WaitForSeconds(GameUtility.ResolutionDelayTime);
         uIElements.ResolutionScreenAnimator.SetInteger(resStateParaHash, 1);
         uIElements.MainCanvasGroup.blocksRaycasts = true;
     }
 
     void UpdateResUI(ResolutionScreenType type, int score)
     {
-        var highscore = PlayerPrefs.GetInt(GameUtillity.SavePrefKey + events.isLevel.ToString());
+        var highscore = PlayerPrefs.GetInt(GameUtility.SavePrefKey + events.isLevel.ToString());
 
         switch (type)
         {
@@ -167,11 +167,11 @@ public class UIManager : MonoBehaviour
                 uIElements.HighScoreText.text = ((highscore > events.StartupHighscore) ? "<color=yellow>New </color>" + "Best: " + highscore : "Best: " + highscore);
                 if (highscore > events.StartupHighscore)
                 {
-                    PlayerPrefs.SetInt(GameUtillity.SavePrefKey + events.isLevel.ToString(), highscore);
+                    PlayerPrefs.SetInt(GameUtility.SavePrefKey + events.isLevel.ToString(), highscore);
                 }
 
                 var scorePreStar = events.currentLevelMaxScore / 3;
-                var isLevelAllStartCompleted = PlayerPrefs.GetInt(GameUtillity.SavePrefKey + events.isLevel.ToString() + "_State");
+                var isLevelAllStartCompleted = PlayerPrefs.GetInt(GameUtility.SavePrefKey + events.isLevel.ToString() + "_State");
                 var currentResult = 0;
                 if (events.CurrentFinalScore == events.currentLevelMaxScore)
                 {
@@ -200,7 +200,7 @@ public class UIManager : MonoBehaviour
                 {
                     if (highscore == events.currentLevelMaxScore)
                     {
-                        PlayerPrefs.SetInt(GameUtillity.SavePrefKey + events.isLevel.ToString() + "_State", 3);
+                        PlayerPrefs.SetInt(GameUtility.SavePrefKey + events.isLevel.ToString() + "_State", 3);
 
 
                         Debug.Log(uIElements.FinishStarGroup.Length);
@@ -214,7 +214,7 @@ public class UIManager : MonoBehaviour
                     {
                         if (highscore <= scorePreStar * 2 && highscore > scorePreStar)
                         {
-                            PlayerPrefs.SetInt(GameUtillity.SavePrefKey + events.isLevel.ToString() + "_State", 2);
+                            PlayerPrefs.SetInt(GameUtility.SavePrefKey + events.isLevel.ToString() + "_State", 2);
                             for (int i = 0; i < (uIElements.FinishStarGroup.Length - 1); i++)
                             {
                                 uIElements.FinishStarGroup[i].sprite = uIElements.FinishStarActive;
@@ -229,7 +229,7 @@ public class UIManager : MonoBehaviour
                         {
                             if (highscore <= scorePreStar && isLevelAllStartCompleted != 2)
                             {
-                                PlayerPrefs.SetInt(GameUtillity.SavePrefKey + events.isLevel.ToString() + "_State", 1);
+                                PlayerPrefs.SetInt(GameUtility.SavePrefKey + events.isLevel.ToString() + "_State", 1);
                                 for (int i = 0; i < (uIElements.FinishStarGroup.Length - 2); i++)
                                 {
                                     uIElements.FinishStarGroup[i].sprite = uIElements.FinishStarActive;
@@ -244,7 +244,7 @@ public class UIManager : MonoBehaviour
 
 
                 uIElements.FinishLevelTitle.text = "Level " + events.isLevel.ToString();
-                events.StartupHighscore = PlayerPrefs.GetInt(GameUtillity.SavePrefKey + events.isLevel.ToString());
+                events.StartupHighscore = PlayerPrefs.GetInt(GameUtility.SavePrefKey + events.isLevel.ToString());
                 gameManager.FinishedQuestions = new List<int>();
                 //events.updateQuestionAnswer = null;
                 break;

@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using System.Linq;
 using UnityEngine.SceneManagement;
+using System.IO;
 public class GameManager : MonoBehaviour
 {
 
@@ -16,8 +17,9 @@ public class GameManager : MonoBehaviour
     [Space]
     [SerializeField] public int TotaleLevels;
 
-    Question[] _questions = null;
-    public Question[] Questions { get { return _questions; } }
+    private Data data = new Data();
+    // Question[] _questions = null;
+    // public Question[] Questions { get { return _questions; } }
     [SerializeField] GameEvents events = null;
 
     [SerializeField] Animator timerAnimtor = null;
@@ -38,7 +40,7 @@ public class GameManager : MonoBehaviour
     {
         get
         {
-            return (FinishedQuestions.Count < Questions.Length) ? false : true;
+            return (FinishedQuestions.Count < data.Questions.Length) ? false : true;
         }
     }
 
@@ -83,10 +85,10 @@ public class GameManager : MonoBehaviour
         UpdateTimer(false);
 
         Debug.Log("[Start Accept]");
-        Debug.Log("[current question] " + Questions[currentQuestion].Info);
-        foreach (var answer in Questions[currentQuestion].GetCorrectAnswers())
+        Debug.Log("[current question] " + data.Questions[currentQuestion].Info);
+        foreach (var answer in data.Questions[currentQuestion].GetCorrectAnswers())
         {
-            Debug.Log(" [Question currect Answer`s]" + Questions[currentQuestion].Answers[answer].Info);
+            Debug.Log(" [Question currect Answer`s]" + data.Questions[currentQuestion].Answers[answer].Info);
         }
 
 
@@ -104,7 +106,7 @@ public class GameManager : MonoBehaviour
         //  .ToArray())+" "+Questions[currentQuestion].Answers[]);
 
         FinishedQuestions.Add(currentQuestion);
-        UpdateScore((isCorrect) ? Questions[currentQuestion].AddScore : -Questions[currentQuestion].AddScore);
+        UpdateScore((isCorrect) ? data.Questions[currentQuestion].AddScore : -data.Questions[currentQuestion].AddScore);
 
         if (IsFinished)
         {
@@ -120,7 +122,7 @@ public class GameManager : MonoBehaviour
 
         if (events.DisplayResolutionScreen != null)
         {
-            events.DisplayResolutionScreen(type, Questions[currentQuestion].AddScore);
+            events.DisplayResolutionScreen(type, data.Questions[currentQuestion].AddScore);
         }
 
 
@@ -161,7 +163,7 @@ public class GameManager : MonoBehaviour
     }
     IEnumerator StartTimer()
     {
-        var totalTime = Questions[currentQuestion].Timer;
+        var totalTime = data.Questions[currentQuestion].Timer;
         var timeLeft = totalTime;
 
         timerText.color = timerDefaultColor;
@@ -188,16 +190,16 @@ public class GameManager : MonoBehaviour
 
     IEnumerator WaitTillNextRound()
     {
-        yield return new WaitForSeconds(GameUtillity.ResolutionDelayTime);
+        yield return new WaitForSeconds(GameUtility.ResolutionDelayTime);
         Display();
     }
 
     private void SetHighscore()
     {
-        var highscore = PlayerPrefs.GetInt(GameUtillity.SavePrefKey + isLevel.ToString());
+        var highscore = PlayerPrefs.GetInt(GameUtility.SavePrefKey + isLevel.ToString());
         if (highscore < events.CurrentFinalScore)
         {
-            PlayerPrefs.SetInt(GameUtillity.SavePrefKey + isLevel.ToString(), events.CurrentFinalScore);
+            PlayerPrefs.SetInt(GameUtility.SavePrefKey + isLevel.ToString(), events.CurrentFinalScore);
         }
     }
     /// <summary>
@@ -224,7 +226,7 @@ public class GameManager : MonoBehaviour
     {
         var randomIndex = GetRandomQuestionIndex();
         currentQuestion = randomIndex;
-        return Questions[currentQuestion];
+        return data.Questions[currentQuestion];
     }
 
     bool CheckAnswers()
@@ -242,7 +244,7 @@ public class GameManager : MonoBehaviour
         Debug.Log("[PickedAnswers.Count]" + PickedAnswers.Count);
         if (PickedAnswers.Count > 0)
         {
-            List<int> c = Questions[currentQuestion].GetCorrectAnswers();
+            List<int> c = data.Questions[currentQuestion].GetCorrectAnswers();
             List<int> p = PickedAnswers.Select(x => x.AnswerIndex).ToList();
 
             var f = c.Except(p).ToList();
@@ -255,11 +257,11 @@ public class GameManager : MonoBehaviour
     int GetRandomQuestionIndex()
     {
         var random = 0;
-        if (FinishedQuestions.Count < Questions.Length)
+        if (FinishedQuestions.Count < data.Questions.Length)
         {
             do
             {
-                random = UnityEngine.Random.Range(0, Questions.Length);
+                random = UnityEngine.Random.Range(0, data.Questions.Length);
             } while (FinishedQuestions.Contains(random) || random == currentQuestion);
         }
         return random;
@@ -284,7 +286,7 @@ public class GameManager : MonoBehaviour
 
     public void UpdateAnswers(AnswerData newAnswer)
     {
-        if (Questions[currentQuestion].Type == AnswerType.Single)
+        if (data.Questions[currentQuestion].Type == AnswerType.Single)
         {
             foreach (var answer in PickedAnswers)
             {
@@ -306,7 +308,7 @@ public class GameManager : MonoBehaviour
             else
             {
                 PickedAnswers.Add(newAnswer);
-                Debug.Log("[Add answer when multiple]" + Questions[currentQuestion].Answers[newAnswer.AnswerIndex].Info);
+                Debug.Log("[Add answer when multiple]" + data.Questions[currentQuestion].Answers[newAnswer.AnswerIndex].Info);
             }
         }
     }
@@ -362,17 +364,35 @@ public class GameManager : MonoBehaviour
             //	hidePaused();
         }
     }
+
+    void LoadData(int levelId)
+    {
+        var path = Path.Combine(GameUtility.FileDir, GameUtility.FileName + levelId + ".xml");
+        data = Data.Fetch(path);
+        var currentLevelMaxScore = 0;
+        for (int i = 0; i < data.Questions.Length; i++)
+        {
+
+            currentLevelMaxScore += data.Questions[i].AddScore;
+        }
+        events.currentLevelMaxScore = currentLevelMaxScore;
+        timerText = GameObject.Find("/MainCanvas/Content/QuestionBG/Timer/Text").GetComponent<Text>();
+        var seed = UnityEngine.Random.Range(int.MinValue, int.MaxValue);
+        UnityEngine.Random.InitState(seed);
+        Display();
+    }
     public void LoadQuestions()
     {
         events.CurrentFinalScore = 0;
         events.StartupHighscore = 0;
         events.currentLevelMaxScore = 0;
         events.isLevel = 0;
-        _questions = null;
+        // _questions = null;
         var resource = "Questions/";
         string path = resource + isLevel.ToString();
         events.isLevel = isLevel;
         events.StartupHighscore = PlayerPrefs.GetInt("Level_" + isLevel.ToString());
+        LoadData(events.isLevel);
         // Object[] objs = Resources.LoadAll(path, typeof(Question));
         // Debug.Log("[Have Questions in level]" + objs.Length + " " + PlayerPrefs.GetInt("Level_" + isLevel.ToString()));
         // if (objs.Length == 0)
@@ -390,10 +410,7 @@ public class GameManager : MonoBehaviour
         //     currentLevelMaxScore += _questions[i].AddScore;
         // }
         // events.currentLevelMaxScore = currentLevelMaxScore;
-        timerText = GameObject.Find("/MainCanvas/Content/QuestionBG/Timer/Text").GetComponent<Text>();
-        var seed = UnityEngine.Random.Range(int.MinValue, int.MaxValue);
-        UnityEngine.Random.InitState(seed);
-        Display();
+
     }
 
     public void RestoreGame()

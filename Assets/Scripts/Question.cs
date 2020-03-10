@@ -20,7 +20,7 @@ public class Answer
 [Serializable()]
 public class Question
 {
-    public int Level = 0;
+    // public int Level = 0;
     public string Info = null;
     public Answer[] Answers = null;
     public bool UseTimer = false;
