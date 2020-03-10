@@ -1327,7 +1327,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coins: 0
-  clearAllData: 1
+  clearAllData: 0
   isPlaying: 0
   isPause: 0
   isLevel: 0
