@@ -804,6 +804,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 766af4ce3ecfbfc429e84e70a72f3287, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  events: {fileID: 0}
   sceneName: Level
 --- !u!1 &967864707
 GameObject:
@@ -1326,7 +1327,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coins: 0
-  clearAllData: 0
+  clearAllData: 1
   isPlaying: 0
   isPause: 0
   isLevel: 0
