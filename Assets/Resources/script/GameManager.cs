@@ -284,7 +284,7 @@ public class GameManager : MonoBehaviour
 
     public void UpdateAnswers(AnswerData newAnswer)
     {
-        if (Questions[currentQuestion].GetAnswerType == Question.AnswerType.Single)
+        if (Questions[currentQuestion].Type == AnswerType.Single)
         {
             foreach (var answer in PickedAnswers)
             {
@@ -373,23 +373,23 @@ public class GameManager : MonoBehaviour
         string path = resource + isLevel.ToString();
         events.isLevel = isLevel;
         events.StartupHighscore = PlayerPrefs.GetInt("Level_" + isLevel.ToString());
-        Object[] objs = Resources.LoadAll(path, typeof(Question));
-        Debug.Log("[Have Questions in level]" + objs.Length + " " + PlayerPrefs.GetInt("Level_" + isLevel.ToString()));
-        if (objs.Length == 0)
-        {
-            Debug.LogWarning("Wrong while trying to display new Question UI Data. 0 Question find in level " + isLevel.ToString());
-            return;
-        }
-        var currentLevelMaxScore = 0;
+        // Object[] objs = Resources.LoadAll(path, typeof(Question));
+        // Debug.Log("[Have Questions in level]" + objs.Length + " " + PlayerPrefs.GetInt("Level_" + isLevel.ToString()));
+        // if (objs.Length == 0)
+        // {
+        //     Debug.LogWarning("Wrong while trying to display new Question UI Data. 0 Question find in level " + isLevel.ToString());
+        //     return;
+        // }
+        // var currentLevelMaxScore = 0;
 
-        _questions = new Question[objs.Length];
-        for (int i = 0; i < objs.Length; i++)
-        {
+        // _questions = new Question[objs.Length];
+        // for (int i = 0; i < objs.Length; i++)
+        // {
 
-            _questions[i] = (Question)objs[i];
-            currentLevelMaxScore += _questions[i].AddScore;
-        }
-        events.currentLevelMaxScore = currentLevelMaxScore;
+        //     _questions[i] = (Question)objs[i];
+        //     currentLevelMaxScore += _questions[i].AddScore;
+        // }
+        // events.currentLevelMaxScore = currentLevelMaxScore;
         timerText = GameObject.Find("/MainCanvas/Content/QuestionBG/Timer/Text").GetComponent<Text>();
         var seed = UnityEngine.Random.Range(int.MinValue, int.MaxValue);
         UnityEngine.Random.InitState(seed);

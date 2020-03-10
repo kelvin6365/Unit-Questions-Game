@@ -1,45 +1,38 @@
 ﻿
 using UnityEngine;
 using System.Collections.Generic;
+using System;
+public enum AnswerType { Multi, Single }
 
-[System.Serializable]
-public struct Answer
+[Serializable()]
+public class Answer
 {
-    [SerializeField] private string _info;
-    public string Info { get { return _info; } }
+    public string Info = string.Empty;
 
-    [SerializeField] private bool _isCorrect;
-    public bool IsCorrect { get { return _isCorrect; } }
+    public bool IsCorrect = false;
+
+
+    public Answer() { }
 
 }
 
 
-[CreateAssetMenu(fileName = "New Question", menuName = "WhatIsItMeans/new Question")]
-public class Question : ScriptableObject
+[Serializable()]
+public class Question
 {
-    [SerializeField] int _level = 0;
-    public int Level { get { return _level; } }
+    public int Level = 0;
+    public string Info = null;
+    public Answer[] Answers = null;
+    public bool UseTimer = false;
+    public int Timer = 0;
 
-    public enum AnswerType { Multi, Single }
-    [SerializeField] private string _info = string.Empty;
-    public string Info { get { return _info; } }
+    public AnswerType Type = AnswerType.Single;
+    public int AddScore = 0;
 
-    [SerializeField] Answer[] _answers = null;
-    public Answer[] Answers { get { return _answers; } }
+    public Question()
+    {
 
-    [SerializeField] private bool _useTimer = false;
-    public bool UseTimer { get { return _useTimer; } }
-
-    [SerializeField] private int _timer = 0;
-    public int Timer { get { return _timer; } }
-
-
-    [SerializeField] private AnswerType _answerType = AnswerType.Multi;
-    public AnswerType GetAnswerType { get { return _answerType; } }
-
-
-    [SerializeField] private int _addScore = 10;
-    public int AddScore { get { return _addScore; } }
+    }
 
     public List<int> GetCorrectAnswers()
     {
