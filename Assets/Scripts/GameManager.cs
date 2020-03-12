@@ -3,8 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using System.Linq;
-using UnityEngine.SceneManagement;
+// using UnityEngine.SceneManagement;
 using System.IO;
+using System.Xml.Serialization;
+using EasyMobile;
 public class GameManager : MonoBehaviour
 {
 
@@ -30,9 +32,9 @@ public class GameManager : MonoBehaviour
 
     private List<AnswerData> PickedAnswers = new List<AnswerData>();
     public List<int> FinishedQuestions = new List<int>();
-    private int timerStateParaHash = 0;
-    private int currentQuestion = 0;
 
+    private int currentQuestion = 0;
+    private int timerStateParaHash = 0;
     private IEnumerator IE_waitTillNextRound = null;
     private IEnumerator IE_StartTimer = null;
 
@@ -74,10 +76,9 @@ public class GameManager : MonoBehaviour
         {
             Debug.LogWarning("Wrong while trying to display new Question UI Data.");
         }
-        if (question.UseTimer)
-        {
-            UpdateTimer(question.UseTimer);
-        }
+
+        UpdateTimer(question.UseTimer);
+
     }
 
     public void Accept()
@@ -143,13 +144,19 @@ public class GameManager : MonoBehaviour
 
     public void UpdateTimer(bool state)
     {
+        Debug.Log("[UpdateTimer]");
+        if (!timerAnimtor)
+        {
+            timerAnimtor = GameObject.Find("/MainCanvas/Content/QuestionBG/Timer").GetComponent<Animator>();
+        }
         switch (state)
         {
             case true:
                 IE_StartTimer = StartTimer();
                 StartCoroutine(IE_StartTimer);
 
-                //timerAnimtor.SetInteger(timerStateParaHash, 2);
+                timerAnimtor.SetInteger(timerStateParaHash, 2);
+
                 break;
             case false:
                 if (IE_StartTimer != null)
@@ -157,7 +164,7 @@ public class GameManager : MonoBehaviour
                     StopCoroutine(IE_StartTimer);
                 }
 
-                // timerAnimtor.SetInteger(timerStateParaHash, 1);
+                timerAnimtor.SetInteger(timerStateParaHash, 0);
                 break;
         }
     }
@@ -272,7 +279,7 @@ public class GameManager : MonoBehaviour
         if (instance == null)
         {
             instance = this;
-
+            Advertising.ShowBannerAd(BannerAdPosition.Bottom);
             //Display();
             DontDestroyOnLoad(gameObject);
         }
@@ -315,6 +322,7 @@ public class GameManager : MonoBehaviour
 
     void Awake()
     {
+
         events.CurrentFinalScore = 0;
         events.StartupHighscore = 0;
         events.currentLevelMaxScore = 0;
@@ -367,16 +375,27 @@ public class GameManager : MonoBehaviour
 
     void LoadData(int levelId)
     {
-        var path = Path.Combine(GameUtility.FileDir, GameUtility.FileName + levelId + ".xml");
-        data = Data.Fetch(path);
+        var path = GameUtility.FileName + levelId;
+        Debug.Log(GameUtility.FileName + levelId + "  " + Resources.Load(path));
+
+        XmlSerializer serializer = new XmlSerializer(typeof(Data));
+        string _xml = Resources.Load(path).ToString();
+        // data = Data.FetchInGame(path);
+        StringReader reader = new StringReader(_xml);
+        Data items = serializer.Deserialize(reader) as Data;
+        reader.Close();
+        Debug.Log(items);
+        data = items;
         var currentLevelMaxScore = 0;
+
         for (int i = 0; i < data.Questions.Length; i++)
         {
-
+            Debug.Log(data.Questions[i].Info);
             currentLevelMaxScore += data.Questions[i].AddScore;
         }
         events.currentLevelMaxScore = currentLevelMaxScore;
-        timerText = GameObject.Find("/MainCanvas/Content/QuestionBG/Timer/Text").GetComponent<Text>();
+
+        timerStateParaHash = Animator.StringToHash("TimerState");
         var seed = UnityEngine.Random.Range(int.MinValue, int.MaxValue);
         UnityEngine.Random.InitState(seed);
         Display();
@@ -392,6 +411,9 @@ public class GameManager : MonoBehaviour
         string path = resource + isLevel.ToString();
         events.isLevel = isLevel;
         events.StartupHighscore = PlayerPrefs.GetInt("Level_" + isLevel.ToString());
+        timerText = GameObject.Find("/MainCanvas/Content/QuestionBG/Timer/Text").GetComponent<Text>();
+
+
         LoadData(events.isLevel);
         // Object[] objs = Resources.LoadAll(path, typeof(Question));
         // Debug.Log("[Have Questions in level]" + objs.Length + " " + PlayerPrefs.GetInt("Level_" + isLevel.ToString()));

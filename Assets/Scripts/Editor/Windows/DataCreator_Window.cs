@@ -86,9 +86,10 @@ public class DataCreator_Window : EditorWindow
         bool pressed = GUI.Button(buttonRect, string.IsNullOrEmpty(path) ? "Create" : "Save", EditorStyles.miniButtonRight);
         if (pressed)
         {
+            Debug.Log(GameUtility.FileName + data.Level);
             if (string.IsNullOrEmpty(path) == true)
             {
-                path = EditorUtility.SaveFilePanel("Save", "Asset", GameUtility.FileName + questionsLevel, "xml");
+                path = EditorUtility.SaveFilePanel("Save", "Asset", (GameUtility.FileName + data.Level), "xml");
             }
             if (string.IsNullOrEmpty(path) == false)
             {
@@ -100,7 +101,7 @@ public class DataCreator_Window : EditorWindow
         pressed = GUI.Button(buttonRect, "Fetch", EditorStyles.miniButtonLeft);
         if (pressed)
         {
-            path = EditorUtility.OpenFilePanel("Select", "Assets", "xml");
+            path = EditorUtility.OpenFilePanel("Select", "Assets/Resources", "xml");
             if (string.IsNullOrEmpty(path) == false)
             {
                 var d = Data.Fetch(out bool result, path);

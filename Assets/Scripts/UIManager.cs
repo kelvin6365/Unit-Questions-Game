@@ -66,6 +66,7 @@ public struct UIElements
     [SerializeField] Sprite finishStarActive;
     public Sprite FinishStarActive { get { return finishStarActive; } }
 
+
     [SerializeField] GameObject overlay;
     public GameObject Overlay { get { return overlay; } }
 

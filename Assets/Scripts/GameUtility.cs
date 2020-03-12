@@ -1,7 +1,7 @@
 ﻿using System.IO;
 using System.Xml.Serialization;
 using UnityEngine;
-
+using System.Text;
 public class GameUtility
 {
 
@@ -13,7 +13,7 @@ public class GameUtility
     {
         get
         {
-            return Application.dataPath + "/";
+            return Application.dataPath + "/Resources/";
         }
     }
 }
@@ -27,8 +27,12 @@ public class Data
 
     public static void Write(Data data, string path)
     {
+        if (File.Exists(path))
+            File.Delete(path);
         XmlSerializer serializer = new XmlSerializer(typeof(Data));
-        using (Stream stream = new FileStream(path, FileMode.Create))
+        var encoding = Encoding.GetEncoding("UTF-8");
+        // using (Stream stream = new FileStream(path, FileMode.Create))
+        using (TextWriter stream = new StreamWriter(path, true, System.Text.Encoding.UTF8))
         {
             serializer.Serialize(stream, data);
         }
@@ -42,7 +46,7 @@ public class Data
         if (!File.Exists(filePath)) { result = false; return new Data(); }
 
         XmlSerializer deserializer = new XmlSerializer(typeof(Data));
-        using (Stream stream = new FileStream(filePath, FileMode.Open))
+        using (TextReader stream = new StreamReader(filePath, System.Text.Encoding.UTF8))
         {
             var data = (Data)deserializer.Deserialize(stream);
 

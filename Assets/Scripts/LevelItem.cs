@@ -36,6 +36,7 @@ public class LevelItem : MonoBehaviour
 
         LevelText.text = LevelId.ToString();
         LevelText2.text = LevelId.ToString();
+        Debug.Log(PlayerPrefs.GetInt("LevelState"));
         Debug.Log(PlayerPrefs.GetInt("Level_" + LevelId.ToString() + "_State"));
         if (PlayerPrefs.GetInt("LevelState") >= LevelId)
         {
