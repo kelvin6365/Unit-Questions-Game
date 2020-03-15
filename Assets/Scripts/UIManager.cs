@@ -28,6 +28,9 @@ public struct UIElements
     [SerializeField] Text questionInfoTextObject;
     public Text QuestionInfoTextObject { get { return questionInfoTextObject; } }
 
+
+    [SerializeField] Animator scoreTextObject;
+    public Animator ScoreTextObject { get { return scoreTextObject; } }
     [SerializeField] Text scoreText;
     public Text ScoreText { get { return scoreText; } }
 
@@ -88,6 +91,8 @@ public class UIManager : MonoBehaviour
     [SerializeField] UIElements uIElements = new UIElements();
     [Space]
     [SerializeField] UIManagerParameters parameters = new UIManagerParameters();
+    [SerializeField] private AudioClip CorrectSound;
+    [SerializeField] private AudioClip InCorrectSound;
     GameManager gameManager;
     List<AnswerData> currentAnswers = new List<AnswerData>();
     private int resStateParaHash = 0;
@@ -147,11 +152,13 @@ public class UIManager : MonoBehaviour
         switch (type)
         {
             case ResolutionScreenType.Correct:
+                UiSoundPlayer.Instance.PlaySFX(CorrectSound);
                 uIElements.ResolutionBG.color = parameters.CorrectBGColor;
                 uIElements.ResolutionStateInfoText.text = "Correct!";
                 uIElements.ResolutionScoreText.text = "+" + score;
                 break;
             case ResolutionScreenType.Incorrect:
+                UiSoundPlayer.Instance.PlaySFX(InCorrectSound);
                 uIElements.ResolutionBG.color = parameters.IncorrectBGColor;
                 uIElements.ResolutionStateInfoText.text = "Wrong!";
                 uIElements.ResolutionScoreText.text = "-" + score;
@@ -259,6 +266,7 @@ public class UIManager : MonoBehaviour
         CreateAnswer(question);
     }
 
+
     IEnumerator CalculateScore()
     {
         var scoreValue = 0;
@@ -276,12 +284,20 @@ public class UIManager : MonoBehaviour
         }
         else
         {
-            while (scoreValue < events.CurrentFinalScore)
+            if (events.CurrentFinalScore == 0)
             {
-                scoreValue++;
                 uIElements.ResolutionScoreText.text = scoreValue.ToString();
 
-                yield return null;
+            }
+            else
+            {
+                while (scoreValue < events.CurrentFinalScore)
+                {
+                    scoreValue++;
+                    uIElements.ResolutionScoreText.text = scoreValue.ToString();
+
+                    yield return null;
+                }
             }
         }
 
@@ -314,11 +330,13 @@ public class UIManager : MonoBehaviour
 
     void UpdateScoreUI()
     {
-        uIElements.ScoreText.text = "Score: " + events.CurrentFinalScore.ToString();
+        uIElements.ScoreTextObject.Play("ScoreScaleAnimation");
+        uIElements.ScoreText.text = events.CurrentFinalScore.ToString();
     }
 
     public void PauseGame()
     {
+        Debug.Log("[PauseGame]");
         events.PauseGame(uIElements.Overlay, uIElements.PauseButton);
 
     }

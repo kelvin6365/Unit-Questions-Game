@@ -184,6 +184,10 @@ public class UiSoundPlayer : MonoBehaviour
 
     public void MuteMusicVolume()
     {
+        if (!MusicToggle)
+        {
+            MusicToggle = GameObject.Find("/Menu/Setting/Panel/Music/MusicToggle").GetComponent<Toggle>();
+        }
         if (!MusicToggle.isOn)
         {
             musicSource.mute = true;
@@ -203,6 +207,10 @@ public class UiSoundPlayer : MonoBehaviour
     }
     public void MuteSFXVolume()
     {
+        if (!SFXToggle)
+        {
+            SFXToggle = GameObject.Find("/Menu/Setting/Panel/Sound/SoundToggle").GetComponent<Toggle>();
+        }
         if (!SFXToggle.isOn)
         {
             sfxSource.mute = true;

@@ -7,9 +7,11 @@ using System.Linq;
 using System.IO;
 using System.Xml.Serialization;
 using EasyMobile;
+using Coffee.UIExtensions;
 public class GameManager : MonoBehaviour
 {
 
+    [SerializeField] public GameObject MainUITransitionEffect;
     [SerializeField] public int coins;
     [SerializeField] private bool clearAllData;
     [SerializeField] public bool isPlaying;
@@ -37,6 +39,7 @@ public class GameManager : MonoBehaviour
     private int timerStateParaHash = 0;
     private IEnumerator IE_waitTillNextRound = null;
     private IEnumerator IE_StartTimer = null;
+    private bool isCoroutineExecuting = false;
 
     private bool IsFinished
     {
@@ -44,6 +47,11 @@ public class GameManager : MonoBehaviour
         {
             return (FinishedQuestions.Count < data.Questions.Length) ? false : true;
         }
+    }
+
+    public void Translation()
+    {
+        MainUITransitionEffect.GetComponent<UITransitionEffect>().Hide();
     }
 
     public void EraseAnswers()
@@ -56,12 +64,14 @@ public class GameManager : MonoBehaviour
     void OnEnable()
     {
         events.updateQuestionAnswer += UpdateAnswers;
+        events.PauseGame += GamePasue;
 
     }
 
     void OnDisable()
     {
         events.updateQuestionAnswer -= UpdateAnswers;
+        events.PauseGame -= GamePasue;
     }
     void Display()
     {
@@ -115,9 +125,11 @@ public class GameManager : MonoBehaviour
 
         }
         var type
-                  = (IsFinished)
-                  ? UIManager.ResolutionScreenType.Finish
-                  : (isCorrect) ? UIManager.ResolutionScreenType.Correct
+                  =
+                //   (IsFinished)
+                //   ? UIManager.ResolutionScreenType.Finish
+                //   : 
+                (isCorrect) ? UIManager.ResolutionScreenType.Correct
                   : UIManager.ResolutionScreenType.Incorrect;
 
 
@@ -129,17 +141,21 @@ public class GameManager : MonoBehaviour
 
         //  AudioManager.Instance.PlaySound((isCorrect) ? "CorrectSFX" : "IncorrectSFX");
 
-        if (type != UIManager.ResolutionScreenType.Finish)
+        if (!IsFinished)
         {
             if (IE_waitTillNextRound != null)
             {
                 StopCoroutine(IE_waitTillNextRound);
             }
-            IE_waitTillNextRound = WaitTillNextRound();
+            if (!IsFinished)
+                IE_waitTillNextRound = WaitTillNextRound();
             StartCoroutine(IE_waitTillNextRound);
         }
+        if (IsFinished)
+        {
 
-
+            StartCoroutine(ExecuteAfterTime(UIManager.ResolutionScreenType.Finish));
+        }
     }
 
     public void UpdateTimer(bool state)
@@ -193,6 +209,15 @@ public class GameManager : MonoBehaviour
             yield return new WaitForSeconds(1.0f);
         }
         Accept();
+    }
+
+
+    IEnumerator ExecuteAfterTime(UIManager.ResolutionScreenType type)
+    {
+
+        yield return new WaitForSeconds(GameUtility.ResolutionDelayTime);
+        events.DisplayResolutionScreen(type, data.Questions[currentQuestion].AddScore);
+
     }
 
     IEnumerator WaitTillNextRound()
@@ -275,10 +300,11 @@ public class GameManager : MonoBehaviour
     }
     void Start()
     {
-
+        MainUITransitionEffect.GetComponent<UITransitionEffect>().Hide();
         if (instance == null)
         {
             instance = this;
+
             Advertising.ShowBannerAd(BannerAdPosition.Bottom);
             //Display();
             DontDestroyOnLoad(gameObject);
@@ -327,7 +353,7 @@ public class GameManager : MonoBehaviour
         events.StartupHighscore = 0;
         events.currentLevelMaxScore = 0;
         events.isLevel = 0;
-        events.PauseGame += GamePasue;
+
         if (clearAllData)
         {
             Debug.Log("[Clear Data]");
@@ -366,6 +392,7 @@ public class GameManager : MonoBehaviour
         {
             pauseButton.interactable = true;
             overlay.SetActive(false);
+            // overlay.transform.parent.gameObject.GetComponent<CanvasGroup>
             Time.timeScale = 1;
             events.isPause = false;
 

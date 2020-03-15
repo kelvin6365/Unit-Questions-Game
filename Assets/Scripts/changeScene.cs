@@ -28,6 +28,7 @@ public class changeScene : MonoBehaviour
     public void LoadScene()
     {
         SceneManager.LoadScene(sceneName);
+
     }
 
     public void ExitGameToLevel()

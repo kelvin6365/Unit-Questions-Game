@@ -2,19 +2,23 @@
 <Data xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Questions>
     <Question>
-      <Info>q1 level 1  ans :3</Info>
+      <Info>What is "Kick the can down the road" means?</Info>
       <Answers>
         <Answer>
-          <Info>1</Info>
+          <Info>浪費時間</Info>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <Info>2</Info>
+          <Info>暴力解決問題</Info>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <Info>3</Info>
+          <Info>拖字闕</Info>
           <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>行動</Info>
+          <IsCorrect>false</IsCorrect>
         </Answer>
       </Answers>
       <UseTimer>false</UseTimer>
@@ -23,19 +27,23 @@
       <AddScore>10</AddScore>
     </Question>
     <Question>
-      <Info>q2 level 1  ans :3</Info>
+      <Info>What is "The real deal" means?</Info>
       <Answers>
         <Answer>
-          <Info>1</Info>
+          <Info>真的協議</Info>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <Info>2</Info>
+          <Info>真正的交易</Info>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <Info>3</Info>
+          <Info>真材實料</Info>
           <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>以上三項都正確</Info>
+          <IsCorrect>false</IsCorrect>
         </Answer>
       </Answers>
       <UseTimer>true</UseTimer>

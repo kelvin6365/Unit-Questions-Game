@@ -8,10 +8,13 @@ public class AnswerData : MonoBehaviour
     [Header("UI Elements")]
     [SerializeField] Text infoTextObject;
     [SerializeField] Image toggle;
+    [SerializeField] Image Button;
 
     [Header("Textures")]
     [SerializeField] Sprite unCheckedToggle;
     [SerializeField] Sprite checkedTogglele;
+    [SerializeField] Sprite unCheckedBg;
+    [SerializeField] Sprite checkedBg;
 
     [Header("References")]
     [SerializeField] GameEvents events;
@@ -63,5 +66,6 @@ public class AnswerData : MonoBehaviour
 
         if (toggle == null) return;
         toggle.sprite = (Checked) ? checkedTogglele : unCheckedToggle;
+        Button.sprite = (Checked) ? checkedBg : unCheckedBg;
     }
 }
