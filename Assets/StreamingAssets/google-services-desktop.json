@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "516617149786",
+    "firebase_url": "https://whatisitmean-01.firebaseio.com",
+    "project_id": "whatisitmean-01",
+    "storage_bucket": "whatisitmean-01.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:516617149786:android:d225e128cb5a1476bc2763",
+        "android_client_info": {
+          "package_name": "com.TwoRocksStudio.WhatIsItMeans01"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "516617149786-6fda69ke30i1122sobit4bdoiclpk7qs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyArTJk2d2aJcVjLkgo49FWZsBsoqtWJO6Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "516617149786-6fda69ke30i1122sobit4bdoiclpk7qs.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "516617149786-srf1tht7gcbqf2a1gikrjj71r9n620rm.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.TwoRocksStudio.WhatIsItMeans01"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
