@@ -11,6 +11,7 @@ public class DataCreator_Window : EditorWindow
     private SerializedObject serializedObject = null;
     private SerializedProperty questionsProp = null;
     private SerializedProperty questionsLevel = null;
+    private SerializedProperty questionsType = null;
 
 
     private void OnEnable()
@@ -19,6 +20,7 @@ public class DataCreator_Window : EditorWindow
         data.Questions = new Question[0];
         questionsProp = serializedObject.FindProperty("data").FindPropertyRelative("Questions");
         questionsLevel = serializedObject.FindProperty("data").FindPropertyRelative("Level");
+        questionsType = serializedObject.FindProperty("data").FindPropertyRelative("QuestionType");
     }
 
     [MenuItem("Game/Data Creator")]
@@ -70,8 +72,12 @@ public class DataCreator_Window : EditorWindow
         var drawSlider = viewRect.height > scrollPosRect.height;
 
         Rect propertyRect = new Rect(bodyRect.x + 10, bodyRect.y + 10, bodyRect.width - (drawSlider ? 40 : 20), 17);
-        EditorGUI.PropertyField(propertyRect, questionsLevel, true);
-        Rect propertyRect2 = new Rect(bodyRect.x + 10, bodyRect.y + 30, bodyRect.width - (drawSlider ? 40 : 20), 17);
+        EditorGUI.PropertyField(propertyRect, questionsType, true);
+
+        Rect propertyRect1 = new Rect(bodyRect.x + 10, bodyRect.y + 30, bodyRect.width - (drawSlider ? 40 : 20), 17);
+        EditorGUI.PropertyField(propertyRect1, questionsLevel, true);
+
+        Rect propertyRect2 = new Rect(bodyRect.x + 10, bodyRect.y + 60, bodyRect.width - (drawSlider ? 40 : 20), 17);
         EditorGUI.PropertyField(propertyRect2, questionsProp, true);
 
         serializedObject.ApplyModifiedProperties();
@@ -89,7 +95,7 @@ public class DataCreator_Window : EditorWindow
             Debug.Log(GameUtility.FileName + data.Level);
             if (string.IsNullOrEmpty(path) == true)
             {
-                path = EditorUtility.SaveFilePanel("Save", "Asset", (GameUtility.FileName + data.Level), "xml");
+                path = EditorUtility.SaveFilePanel("Save", "Asset", (GameUtility.FileName + data.Level + "_" + data.QuestionType), "xml");
             }
             if (string.IsNullOrEmpty(path) == false)
             {

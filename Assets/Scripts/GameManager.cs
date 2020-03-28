@@ -19,7 +19,10 @@ public class GameManager : MonoBehaviour
     [SerializeField] public int isLevel = 0;
     [SerializeField] public int LevelState;
     [Space]
+    [SerializeField] public QuestionTypeLevels[] QuestionTypeLevels;
+
     [SerializeField] public int TotaleLevels;
+    [Space]
 
     private Data data = new Data();
     // Question[] _questions = null;
@@ -228,10 +231,10 @@ public class GameManager : MonoBehaviour
 
     private void SetHighscore()
     {
-        var highscore = PlayerPrefs.GetInt(GameUtility.SavePrefKey + isLevel.ToString());
+        var highscore = PlayerPrefs.GetInt(events.SelectedQuestionType + "_" + GameUtility.SavePrefKey + isLevel.ToString());
         if (highscore < events.CurrentFinalScore)
         {
-            PlayerPrefs.SetInt(GameUtility.SavePrefKey + isLevel.ToString(), events.CurrentFinalScore);
+            PlayerPrefs.SetInt(events.SelectedQuestionType + "_" + GameUtility.SavePrefKey + isLevel.ToString(), events.CurrentFinalScore);
         }
     }
     /// <summary>
@@ -349,6 +352,7 @@ public class GameManager : MonoBehaviour
     void Awake()
     {
 
+        events.SelectedQuestionType = null;
         events.CurrentFinalScore = 0;
         events.StartupHighscore = 0;
         events.currentLevelMaxScore = 0;
@@ -358,21 +362,10 @@ public class GameManager : MonoBehaviour
         {
             Debug.Log("[Clear Data]");
             PlayerPrefs.DeleteAll();
-            PlayerPrefs.SetInt("LevelState", 1);
+            // PlayerPrefs.SetInt("LevelState", 1);
         }
 
-        var haveSave = PlayerPrefs.GetInt("LevelState") == 0 ? false : true;
 
-        Debug.Log("[Save Check]" + haveSave);
-        if (!haveSave)
-        {
-            PlayerPrefs.SetInt("LevelState", 1);
-            LevelState = PlayerPrefs.GetInt("LevelState");
-        }
-        else
-        {
-            LevelState = PlayerPrefs.GetInt("LevelState");
-        }
     }
 
     // Update is called once per frame
@@ -400,9 +393,9 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    void LoadData(int levelId)
+    void LoadData(int levelId, string QuestionType)
     {
-        var path = GameUtility.FileName + levelId;
+        var path = GameUtility.FileName + levelId + "_" + QuestionType;
         Debug.Log(GameUtility.FileName + levelId + "  " + Resources.Load(path));
 
         XmlSerializer serializer = new XmlSerializer(typeof(Data));
@@ -434,14 +427,25 @@ public class GameManager : MonoBehaviour
         events.currentLevelMaxScore = 0;
         events.isLevel = 0;
         // _questions = null;
-        var resource = "Questions/";
-        string path = resource + isLevel.ToString();
+        // var resource = "Questions/" + events.SelectedQuestionType + "/";
+        // string path = resource + isLevel.ToString();
         events.isLevel = isLevel;
-        events.StartupHighscore = PlayerPrefs.GetInt("Level_" + isLevel.ToString());
+        events.StartupHighscore = PlayerPrefs.GetInt(events.SelectedQuestionType + "_" + "Level_" + isLevel.ToString());
         timerText = GameObject.Find("/MainCanvas/Content/QuestionBG/Timer/Text").GetComponent<Text>();
+        var haveSave = PlayerPrefs.GetInt(events.SelectedQuestionType + "_" + "LevelState") == 0 ? false : true;
 
+        Debug.Log("[Save Check]" + haveSave);
+        if (!haveSave)
+        {
+            PlayerPrefs.SetInt(events.SelectedQuestionType + "_" + "LevelState", 1);
+            LevelState = PlayerPrefs.GetInt(events.SelectedQuestionType + "_" + "LevelState");
+        }
+        else
+        {
+            LevelState = PlayerPrefs.GetInt(events.SelectedQuestionType + "_" + "LevelState");
+        }
 
-        LoadData(events.isLevel);
+        LoadData(events.isLevel, events.SelectedQuestionType);
         // Object[] objs = Resources.LoadAll(path, typeof(Question));
         // Debug.Log("[Have Questions in level]" + objs.Length + " " + PlayerPrefs.GetInt("Level_" + isLevel.ToString()));
         // if (objs.Length == 0)
@@ -464,6 +468,20 @@ public class GameManager : MonoBehaviour
 
     public void RestoreGame()
     {
+
+    }
+
+    public void GetSelectedTypeData(string type)
+    {
+        int SelectedTypeTotalLevels = 0;
+        for (var i = 0; i < QuestionTypeLevels.Length; i++)
+        {
+            if (QuestionTypeLevels[i].QuestionType == type)
+            {
+                SelectedTypeTotalLevels = QuestionTypeLevels[i].TotleLevels;
+            }
+        }
+        TotaleLevels = SelectedTypeTotalLevels;
 
     }
 

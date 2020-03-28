@@ -32,6 +32,10 @@ public class changeScene : MonoBehaviour
 
     public void LoadScene()
     {
+        if (sceneName == "QuestionType" && SceneManager.GetActiveScene().name == "Level")
+        {
+            events.SelectedQuestionType = null;
+        }
         SceneManager.LoadScene(sceneName);
 
     }
@@ -50,10 +54,10 @@ public class changeScene : MonoBehaviour
         SceneManager.LoadScene("Level");
     }
 
-    public void LoadLevelScene(int Level)
+    public void LoadLevelScene(int Level, string QuestionType)
     {
         gameManager.isLevel = Level;
-        Debug.Log("[LoadLevelScene]" + Level);
+        Debug.Log("[LoadLevelScene]" + Level + " " + QuestionType);
         SceneManager.LoadScene(sceneName);
     }
 

@@ -31,19 +31,19 @@ public class LevelItem : MonoBehaviour
 
     }
 
-    public void LoadLevel(int LevelId)
+    public void LoadLevel(int LevelId, string QuestionType)
     {
 
         LevelText.text = LevelId.ToString();
         LevelText2.text = LevelId.ToString();
-        Debug.Log(PlayerPrefs.GetInt("LevelState"));
-        Debug.Log(PlayerPrefs.GetInt("Level_" + LevelId.ToString() + "_State"));
-        if (PlayerPrefs.GetInt("LevelState") >= LevelId)
+        Debug.Log(PlayerPrefs.GetInt(QuestionType + "_LevelState"));
+        Debug.Log(PlayerPrefs.GetInt(QuestionType + "_Level_" + LevelId.ToString() + "_State"));
+        if (PlayerPrefs.GetInt(QuestionType + "_LevelState") >= LevelId || (PlayerPrefs.GetInt(QuestionType + "_LevelState") == 0 && LevelId == 1))
         {
             ActiveObject.SetActive(true);
             LockObject.SetActive(false);
-            var LevelState = PlayerPrefs.GetInt("Level_" + LevelId.ToString() + "_State");
-            Debug.Log("[Level_" + LevelId.ToString() + "] LevelState:" + LevelState.ToString());
+            var LevelState = PlayerPrefs.GetInt(QuestionType + "_Level_" + LevelId.ToString() + "_State");
+            Debug.Log(QuestionType + "_[Level_" + LevelId.ToString() + "] LevelState:" + LevelState.ToString());
             switch (LevelState)
             {
                 case 1:
@@ -62,7 +62,7 @@ public class LevelItem : MonoBehaviour
             }
             this.gameObject.GetComponent<Button>().onClick.AddListener(() =>
             {
-                this.gameObject.GetComponent<changeScene>().LoadLevelScene(LevelId);
+                this.gameObject.GetComponent<changeScene>().LoadLevelScene(LevelId, QuestionType);
             });
         }
         else

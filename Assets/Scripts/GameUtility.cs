@@ -22,7 +22,7 @@ public class Data
 {
     public Question[] Questions = new Question[0];
     public int Level = 0;
-
+    public string QuestionType = null;
     public Data() { }
 
     public static void Write(Data data, string path)

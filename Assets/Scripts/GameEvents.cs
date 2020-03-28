@@ -23,6 +23,7 @@ public class GameEvents : ScriptableObject
     public delegate void PauseGameCallBack(GameObject Overlay, Button PauseButton);
     public PauseGameCallBack PauseGame;
 
+    public string SelectedQuestionType = null;
     public int CurrentFinalScore = 0;
 
     public int StartupHighscore = 0;
@@ -30,6 +31,9 @@ public class GameEvents : ScriptableObject
     public int currentLevelMaxScore = 0;
     public int isLevel = 0;
     public bool isPause = false;
+
+
+
 
 
 }
