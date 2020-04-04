@@ -62,7 +62,7 @@ public class DataCreator_Window : EditorWindow
 
         var arraySize = data.Questions.Length;
 
-        Rect viewRect = new Rect(bodyRect.x + 10, bodyRect.y + 10, bodyRect.width - 20, EditorGUI.GetPropertyHeight(questionsProp));
+        Rect viewRect = new Rect(bodyRect.x + 10, bodyRect.y + 10, bodyRect.width - 20, EditorGUI.GetPropertyHeight(questionsType) + EditorGUI.GetPropertyHeight(questionsLevel) + EditorGUI.GetPropertyHeight(questionsProp) + 20);
         Rect scrollPosRect = new Rect(viewRect)
         {
             height = bodyRect.height - 20

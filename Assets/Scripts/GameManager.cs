@@ -30,7 +30,11 @@ public class GameManager : MonoBehaviour
     [SerializeField] GameEvents events = null;
 
     [SerializeField] Animator timerAnimtor = null;
+    [SerializeField] Image timerImage = null;
     [SerializeField] Text timerText = null;
+    // [SerializeField] public bool TimerActive = false;
+    [SerializeField] public int TimerTotal = 0;
+
     [SerializeField] Color timerHalfWayOutColor = Color.yellow;
     [SerializeField] Color timerAlmostOutColor = Color.red;
     private Color timerDefaultColor = Color.black;
@@ -43,6 +47,7 @@ public class GameManager : MonoBehaviour
     private IEnumerator IE_waitTillNextRound = null;
     private IEnumerator IE_StartTimer = null;
     private bool isCoroutineExecuting = false;
+
 
     private bool IsFinished
     {
@@ -168,9 +173,15 @@ public class GameManager : MonoBehaviour
         {
             timerAnimtor = GameObject.Find("/MainCanvas/Content/QuestionBG/Timer").GetComponent<Animator>();
         }
+        GameObject timerObject = GameObject.Find("/MainCanvas/Content/QuestionBG/Timer");
+        var totalTime = data.Questions[currentQuestion].Timer;
+        TimerTotal = totalTime;
         switch (state)
         {
             case true:
+                // TimerActive = true;
+                // Debug.Log(TimerActive);
+                timerObject.GetComponent<Timer>().TimerStart(true);
                 IE_StartTimer = StartTimer();
                 StartCoroutine(IE_StartTimer);
 
@@ -178,8 +189,12 @@ public class GameManager : MonoBehaviour
 
                 break;
             case false:
+                // TimerActive = false;
+                // Debug.Log(TimerActive);
+                timerObject.GetComponent<Timer>().TimerStart(false);
                 if (IE_StartTimer != null)
                 {
+
                     StopCoroutine(IE_StartTimer);
                 }
 
@@ -191,7 +206,6 @@ public class GameManager : MonoBehaviour
     {
         var totalTime = data.Questions[currentQuestion].Timer;
         var timeLeft = totalTime;
-
         timerText.color = timerDefaultColor;
         while (timeLeft > 0)
         {
@@ -209,6 +223,9 @@ public class GameManager : MonoBehaviour
             }
 
             timerText.text = timeLeft.ToString();
+            // Debug.Log(timeLeft + " " + totalTime);
+            // timerImage.fillAmount = (float)timeLeft / totalTime;
+
             yield return new WaitForSeconds(1.0f);
         }
         Accept();
@@ -432,6 +449,7 @@ public class GameManager : MonoBehaviour
         events.isLevel = isLevel;
         events.StartupHighscore = PlayerPrefs.GetInt(events.SelectedQuestionType + "_" + "Level_" + isLevel.ToString());
         timerText = GameObject.Find("/MainCanvas/Content/QuestionBG/Timer/Text").GetComponent<Text>();
+        timerImage = GameObject.Find("/MainCanvas/Content/QuestionBG/Timer").GetComponent<Image>();
         var haveSave = PlayerPrefs.GetInt(events.SelectedQuestionType + "_" + "LevelState") == 0 ? false : true;
 
         Debug.Log("[Save Check]" + haveSave);

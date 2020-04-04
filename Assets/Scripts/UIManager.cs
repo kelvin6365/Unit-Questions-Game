@@ -166,6 +166,7 @@ public class UIManager : MonoBehaviour
             case ResolutionScreenType.Finish:
                 uIElements.ResolutionBG.color = parameters.FinalBGColor;
                 uIElements.ResolutionStateInfoText.text = "Final Score";
+                uIElements.ResolutionStateInfoText.GetComponent<Text>().color = Color.black;
                 uIElements.ResolutionScoreText.text = highscore.ToString();
                 StartCoroutine(CalculateScore());
                 uIElements.FinishBg.gameObject.SetActive(true);
@@ -276,7 +277,7 @@ public class UIManager : MonoBehaviour
             while (scoreValue > events.CurrentFinalScore)
             {
                 scoreValue--;
-                uIElements.ResolutionScoreText.text = scoreValue.ToString();
+                uIElements.ResolutionScoreText.text = scoreValue.ToString() + "<size=70>/" + events.currentLevelMaxScore + "</size>";
 
                 yield return null;
             }
@@ -286,7 +287,7 @@ public class UIManager : MonoBehaviour
         {
             if (events.CurrentFinalScore == 0)
             {
-                uIElements.ResolutionScoreText.text = scoreValue.ToString();
+                uIElements.ResolutionScoreText.text = scoreValue.ToString() + "<size=70>/" + events.currentLevelMaxScore + "</size>";
 
             }
             else
@@ -294,7 +295,7 @@ public class UIManager : MonoBehaviour
                 while (scoreValue < events.CurrentFinalScore)
                 {
                     scoreValue++;
-                    uIElements.ResolutionScoreText.text = scoreValue.ToString();
+                    uIElements.ResolutionScoreText.text = scoreValue.ToString() + "<size=70>/" + events.currentLevelMaxScore + "</size>";
 
                     yield return null;
                 }
