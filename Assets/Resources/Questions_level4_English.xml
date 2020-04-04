@@ -2,14 +2,22 @@
 <Data xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Questions>
     <Question>
-      <Info>Q1</Info>
+      <Info>What does "Kick the can down the road" mean?</Info>
       <Answers>
         <Answer>
-          <Info>answer</Info>
+          <Info>拖字闕</Info>
           <IsCorrect>true</IsCorrect>
         </Answer>
         <Answer>
-          <Info>1</Info>
+          <Info>暴力解決問題</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>浪費時間</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>行動</Info>
           <IsCorrect>false</IsCorrect>
         </Answer>
       </Answers>
@@ -19,15 +27,195 @@
       <AddScore>10</AddScore>
     </Question>
     <Question>
-      <Info>Q2</Info>
+      <Info>What does "The real deal" mean?</Info>
       <Answers>
         <Answer>
-          <Info>1</Info>
+          <Info>真的協議</Info>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <Info>answer</Info>
+          <Info>真正的交易</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>真材實料</Info>
           <IsCorrect>true</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>false</UseTimer>
+      <Timer>0</Timer>
+      <Type>Single</Type>
+      <AddScore>10</AddScore>
+    </Question>
+    <Question>
+      <Info>What is the other meaning of "Chick"?</Info>
+      <Answers>
+        <Answer>
+          <Info>作弊</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>碎碎念</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>年輕女子</Info>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>false</UseTimer>
+      <Timer>0</Timer>
+      <Type>Single</Type>
+      <AddScore>10</AddScore>
+    </Question>
+    <Question>
+      <Info>Which word have the same meaning of "Very cold"?</Info>
+      <Answers>
+        <Answer>
+          <Info>Freezing</Info>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Arid</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Costly</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>false</UseTimer>
+      <Timer>0</Timer>
+      <Type>Single</Type>
+      <AddScore>10</AddScore>
+    </Question>
+    <Question>
+      <Info>Which word have the same meaning of "Very dirty"?</Info>
+      <Answers>
+        <Answer>
+          <Info>Tedious</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Filthy</Info>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Perplexed</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>false</UseTimer>
+      <Timer>0</Timer>
+      <Type>Single</Type>
+      <AddScore>10</AddScore>
+    </Question>
+    <Question>
+      <Info>What does "Schmuck" mean?</Info>
+      <Answers>
+        <Answer>
+          <Info>小馬克杯</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>肥料</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>蠢材</Info>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>天材</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>false</UseTimer>
+      <Timer>0</Timer>
+      <Type>Single</Type>
+      <AddScore>10</AddScore>
+    </Question>
+    <Question>
+      <Info>What is "Mayonalse"?</Info>
+      <Answers>
+        <Answer>
+          <Info>國家</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>飲品</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>醬料</Info>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>地區</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>false</UseTimer>
+      <Timer>0</Timer>
+      <Type>Single</Type>
+      <AddScore>10</AddScore>
+    </Question>
+    <Question>
+      <Info>What does "Pig out" mean?</Info>
+      <Answers>
+        <Answer>
+          <Info>放牧</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>暴食</Info>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>癡肥</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>false</UseTimer>
+      <Timer>0</Timer>
+      <Type>Single</Type>
+      <AddScore>10</AddScore>
+    </Question>
+    <Question>
+      <Info>What does "Klutz" mean?</Info>
+      <Answers>
+        <Answer>
+          <Info>笨手笨腳的人</Info>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>無知的人</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>可惡的人</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>false</UseTimer>
+      <Timer>0</Timer>
+      <Type>Single</Type>
+      <AddScore>10</AddScore>
+    </Question>
+    <Question>
+      <Info>What does "Tacky" mean?</Info>
+      <Answers>
+        <Answer>
+          <Info>有眼光的</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>寒酸的</Info>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>大方的</Info>
+          <IsCorrect>false</IsCorrect>
         </Answer>
       </Answers>
       <UseTimer>false</UseTimer>

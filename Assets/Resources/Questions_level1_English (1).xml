@@ -2,18 +2,22 @@
 <Data xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Questions>
     <Question>
-      <Info>Which word have the same meaning of "Very easy"?</Info>
+      <Info>What does "Awesome" mean?</Info>
       <Answers>
         <Answer>
-          <Info>Effortless</Info>
-          <IsCorrect>true</IsCorrect>
-        </Answer>
-        <Answer>
-          <Info>Workless</Info>
+          <Info>型</Info>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <Info>Freeless</Info>
+          <Info>非常好</Info>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>帥</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>以上皆是</Info>
           <IsCorrect>false</IsCorrect>
         </Answer>
       </Answers>
@@ -23,18 +27,143 @@
       <AddScore>10</AddScore>
     </Question>
     <Question>
-      <Info>Which word have the same meaning of "Very excited"?</Info>
+      <Info>What does "Deep pocket" mean?</Info>
       <Answers>
         <Answer>
-          <Info>Aroused</Info>
+          <Info>深袋子</Info>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <Info>Thrilled</Info>
+          <Info>長袋子</Info>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <Info>Exhilarated </Info>
+          <Info>有錢</Info>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>以上皆非</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>false</UseTimer>
+      <Timer>0</Timer>
+      <Type>Single</Type>
+      <AddScore>10</AddScore>
+    </Question>
+    <Question>
+      <Info>What does "Freaking out" mean?</Info>
+      <Answers>
+        <Answer>
+          <Info>怪胎</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>驚慌</Info>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>冷靜</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>以上皆非</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>false</UseTimer>
+      <Timer>0</Timer>
+      <Type>Single</Type>
+      <AddScore>10</AddScore>
+    </Question>
+    <Question>
+      <Info>What is the meaning of "Go for it"?</Info>
+      <Answers>
+        <Answer>
+          <Info>跑過去</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>衝過去</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>加油</Info>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>以上皆非</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>false</UseTimer>
+      <Timer>0</Timer>
+      <Type>Single</Type>
+      <AddScore>10</AddScore>
+    </Question>
+    <Question>
+      <Info>What does "Base" mean?</Info>
+      <Answers>
+        <Answer>
+          <Info>低音結他</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>底部</Info>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>結他</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>以上皆非</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>false</UseTimer>
+      <Timer>0</Timer>
+      <Type>Single</Type>
+      <AddScore>10</AddScore>
+    </Question>
+    <Question>
+      <Info>What does "Straws" mean?</Info>
+      <Answers>
+        <Answer>
+          <Info>草莓簡寫</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>草莓</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>吸管</Info>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>以上皆非</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>false</UseTimer>
+      <Timer>0</Timer>
+      <Type>Single</Type>
+      <AddScore>10</AddScore>
+    </Question>
+    <Question>
+      <Info>What does "Napkins" mean?</Info>
+      <Answers>
+        <Answer>
+          <Info>尿布</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>餐巾</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>紙巾</Info>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
@@ -48,135 +177,22 @@
       <AddScore>10</AddScore>
     </Question>
     <Question>
-      <Info>Which word have the same meaning of "Very fat"?</Info>
+      <Info>What does "Drag" mean?</Info>
       <Answers>
         <Answer>
-          <Info>Overweight</Info>
+          <Info>推</Info>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <Info>Obese</Info>
-          <IsCorrect>false</IsCorrect>
-        </Answer>
-        <Answer>
-          <Info>Abnormally fat</Info>
-          <IsCorrect>false</IsCorrect>
-        </Answer>
-        <Answer>
-          <Info>以上皆是</Info>
-          <IsCorrect>true</IsCorrect>
-        </Answer>
-      </Answers>
-      <UseTimer>false</UseTimer>
-      <Timer>0</Timer>
-      <Type>Single</Type>
-      <AddScore>10</AddScore>
-    </Question>
-    <Question>
-      <Info>John is a name but it can mean something else. What does it mean?</Info>
-      <Answers>
-        <Answer>
-          <Info>強壯的人</Info>
-          <IsCorrect>false</IsCorrect>
-        </Answer>
-        <Answer>
-          <Info>路人甲</Info>
-          <IsCorrect>false</IsCorrect>
-        </Answer>
-        <Answer>
-          <Info>廚房</Info>
-          <IsCorrect>false</IsCorrect>
-        </Answer>
-        <Answer>
-          <Info>廁所</Info>
-          <IsCorrect>true</IsCorrect>
-        </Answer>
-      </Answers>
-      <UseTimer>false</UseTimer>
-      <Timer>0</Timer>
-      <Type>Single</Type>
-      <AddScore>10</AddScore>
-    </Question>
-    <Question>
-      <Info>Which word have the same meaning of "Very creative"?</Info>
-      <Answers>
-        <Answer>
-          <Info>Tedious</Info>
-          <IsCorrect>false</IsCorrect>
-        </Answer>
-        <Answer>
-          <Info>Perilous</Info>
-          <IsCorrect>false</IsCorrect>
-        </Answer>
-        <Answer>
-          <Info>Innovative</Info>
-          <IsCorrect>true</IsCorrect>
-        </Answer>
-      </Answers>
-      <UseTimer>false</UseTimer>
-      <Timer>0</Timer>
-      <Type>Single</Type>
-      <AddScore>10</AddScore>
-    </Question>
-    <Question>
-      <Info>What is "Relish"?</Info>
-      <Answers>
-        <Answer>
-          <Info>水果</Info>
-          <IsCorrect>false</IsCorrect>
-        </Answer>
-        <Answer>
-          <Info>蔬菜</Info>
-          <IsCorrect>false</IsCorrect>
-        </Answer>
-        <Answer>
-          <Info>飲品</Info>
-          <IsCorrect>false</IsCorrect>
-        </Answer>
-        <Answer>
-          <Info>醬料</Info>
-          <IsCorrect>true</IsCorrect>
-        </Answer>
-      </Answers>
-      <UseTimer>false</UseTimer>
-      <Timer>0</Timer>
-      <Type>Single</Type>
-      <AddScore>10</AddScore>
-    </Question>
-    <Question>
-      <Info>What does "Hone" mean?</Info>
-      <Answers>
-        <Answer>
-          <Info>磨損</Info>
-          <IsCorrect>false</IsCorrect>
-        </Answer>
-        <Answer>
-          <Info>磨鍊</Info>
-          <IsCorrect>false</IsCorrect>
-        </Answer>
-        <Answer>
-          <Info>磨石</Info>
-          <IsCorrect>true</IsCorrect>
-        </Answer>
-      </Answers>
-      <UseTimer>false</UseTimer>
-      <Timer>0</Timer>
-      <Type>Single</Type>
-      <AddScore>10</AddScore>
-    </Question>
-    <Question>
-      <Info>What does "Currant" mean?</Info>
-      <Answers>
-        <Answer>
-          <Info>葡萄乾</Info>
+          <Info>拉</Info>
           <IsCorrect>true</IsCorrect>
         </Answer>
         <Answer>
-          <Info>趨勢</Info>
+          <Info>耙</Info>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <Info>葡萄汁</Info>
+          <Info>頂</Info>
           <IsCorrect>false</IsCorrect>
         </Answer>
       </Answers>
@@ -186,22 +202,22 @@
       <AddScore>10</AddScore>
     </Question>
     <Question>
-      <Info>What does "Brake" mean? </Info>
+      <Info>What does "Swing" mean?</Info>
       <Answers>
         <Answer>
-          <Info>煞車</Info>
+          <Info>拉扯</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>搖擺</Info>
           <IsCorrect>true</IsCorrect>
         </Answer>
         <Answer>
-          <Info>打破</Info>
+          <Info>搖頭</Info>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <Info>破解</Info>
-          <IsCorrect>false</IsCorrect>
-        </Answer>
-        <Answer>
-          <Info>破壞</Info>
+          <Info>以上皆非</Info>
           <IsCorrect>false</IsCorrect>
         </Answer>
       </Answers>
@@ -211,19 +227,23 @@
       <AddScore>10</AddScore>
     </Question>
     <Question>
-      <Info>What does "Confidant" mean?</Info>
+      <Info>What does "Dork" mean?</Info>
       <Answers>
         <Answer>
-          <Info>朋友</Info>
+          <Info>書呆子</Info>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <Info>自信的</Info>
-          <IsCorrect>false</IsCorrect>
-        </Answer>
-        <Answer>
-          <Info>知己</Info>
+          <Info>怪人</Info>
           <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>高個子</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>以上皆非</Info>
+          <IsCorrect>false</IsCorrect>
         </Answer>
       </Answers>
       <UseTimer>false</UseTimer>
@@ -232,6 +252,6 @@
       <AddScore>10</AddScore>
     </Question>
   </Questions>
-  <Level>3</Level>
+  <Level>1</Level>
   <QuestionType>English</QuestionType>
 </Data>

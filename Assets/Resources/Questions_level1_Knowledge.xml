@@ -2,18 +2,22 @@
 <Data xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Questions>
     <Question>
-      <Info>Which word have the same meaning of "Very easy"?</Info>
+      <Info>世界上毒性最強的動物是一種什麼動物？</Info>
       <Answers>
         <Answer>
-          <Info>Effortless</Info>
+          <Info>水母</Info>
           <IsCorrect>true</IsCorrect>
         </Answer>
         <Answer>
-          <Info>Workless</Info>
+          <Info>章魚</Info>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <Info>Freeless</Info>
+          <Info>河豚</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>海葵</Info>
           <IsCorrect>false</IsCorrect>
         </Answer>
       </Answers>
@@ -23,160 +27,22 @@
       <AddScore>10</AddScore>
     </Question>
     <Question>
-      <Info>Which word have the same meaning of "Very excited"?</Info>
+      <Info>人的血液是紅色的。螃蟹的血液是什麼顏色的？</Info>
       <Answers>
         <Answer>
-          <Info>Aroused</Info>
+          <Info>白色</Info>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <Info>Thrilled</Info>
-          <IsCorrect>false</IsCorrect>
-        </Answer>
-        <Answer>
-          <Info>Exhilarated </Info>
-          <IsCorrect>false</IsCorrect>
-        </Answer>
-        <Answer>
-          <Info>以上皆是</Info>
-          <IsCorrect>true</IsCorrect>
-        </Answer>
-      </Answers>
-      <UseTimer>false</UseTimer>
-      <Timer>0</Timer>
-      <Type>Single</Type>
-      <AddScore>10</AddScore>
-    </Question>
-    <Question>
-      <Info>Which word have the same meaning of "Very fat"?</Info>
-      <Answers>
-        <Answer>
-          <Info>Overweight</Info>
-          <IsCorrect>false</IsCorrect>
-        </Answer>
-        <Answer>
-          <Info>Obese</Info>
-          <IsCorrect>false</IsCorrect>
-        </Answer>
-        <Answer>
-          <Info>Abnormally fat</Info>
-          <IsCorrect>false</IsCorrect>
-        </Answer>
-        <Answer>
-          <Info>以上皆是</Info>
-          <IsCorrect>true</IsCorrect>
-        </Answer>
-      </Answers>
-      <UseTimer>false</UseTimer>
-      <Timer>0</Timer>
-      <Type>Single</Type>
-      <AddScore>10</AddScore>
-    </Question>
-    <Question>
-      <Info>John is a name but it can mean something else. What does it mean?</Info>
-      <Answers>
-        <Answer>
-          <Info>強壯的人</Info>
-          <IsCorrect>false</IsCorrect>
-        </Answer>
-        <Answer>
-          <Info>路人甲</Info>
-          <IsCorrect>false</IsCorrect>
-        </Answer>
-        <Answer>
-          <Info>廚房</Info>
-          <IsCorrect>false</IsCorrect>
-        </Answer>
-        <Answer>
-          <Info>廁所</Info>
-          <IsCorrect>true</IsCorrect>
-        </Answer>
-      </Answers>
-      <UseTimer>false</UseTimer>
-      <Timer>0</Timer>
-      <Type>Single</Type>
-      <AddScore>10</AddScore>
-    </Question>
-    <Question>
-      <Info>Which word have the same meaning of "Very creative"?</Info>
-      <Answers>
-        <Answer>
-          <Info>Tedious</Info>
-          <IsCorrect>false</IsCorrect>
-        </Answer>
-        <Answer>
-          <Info>Perilous</Info>
-          <IsCorrect>false</IsCorrect>
-        </Answer>
-        <Answer>
-          <Info>Innovative</Info>
-          <IsCorrect>true</IsCorrect>
-        </Answer>
-      </Answers>
-      <UseTimer>false</UseTimer>
-      <Timer>0</Timer>
-      <Type>Single</Type>
-      <AddScore>10</AddScore>
-    </Question>
-    <Question>
-      <Info>What is "Relish"?</Info>
-      <Answers>
-        <Answer>
-          <Info>水果</Info>
-          <IsCorrect>false</IsCorrect>
-        </Answer>
-        <Answer>
-          <Info>蔬菜</Info>
-          <IsCorrect>false</IsCorrect>
-        </Answer>
-        <Answer>
-          <Info>飲品</Info>
-          <IsCorrect>false</IsCorrect>
-        </Answer>
-        <Answer>
-          <Info>醬料</Info>
-          <IsCorrect>true</IsCorrect>
-        </Answer>
-      </Answers>
-      <UseTimer>false</UseTimer>
-      <Timer>0</Timer>
-      <Type>Single</Type>
-      <AddScore>10</AddScore>
-    </Question>
-    <Question>
-      <Info>What does "Hone" mean?</Info>
-      <Answers>
-        <Answer>
-          <Info>磨損</Info>
-          <IsCorrect>false</IsCorrect>
-        </Answer>
-        <Answer>
-          <Info>磨鍊</Info>
-          <IsCorrect>false</IsCorrect>
-        </Answer>
-        <Answer>
-          <Info>磨石</Info>
-          <IsCorrect>true</IsCorrect>
-        </Answer>
-      </Answers>
-      <UseTimer>false</UseTimer>
-      <Timer>0</Timer>
-      <Type>Single</Type>
-      <AddScore>10</AddScore>
-    </Question>
-    <Question>
-      <Info>What does "Currant" mean?</Info>
-      <Answers>
-        <Answer>
-          <Info>葡萄乾</Info>
+          <Info>青色</Info>
           <IsCorrect>true</IsCorrect>
         </Answer>
         <Answer>
-          <Info>趨勢</Info>
+          <Info>褐色</Info>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <Info>葡萄汁</Info>
+          <Info>黃色</Info>
           <IsCorrect>false</IsCorrect>
         </Answer>
       </Answers>
@@ -186,22 +52,22 @@
       <AddScore>10</AddScore>
     </Question>
     <Question>
-      <Info>What does "Brake" mean? </Info>
+      <Info>在地面上，普通人若不運動，每天至少需要多少水？</Info>
       <Answers>
         <Answer>
-          <Info>煞車</Info>
+          <Info>500亳升</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>600毫升</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>一公升</Info>
           <IsCorrect>true</IsCorrect>
         </Answer>
         <Answer>
-          <Info>打破</Info>
-          <IsCorrect>false</IsCorrect>
-        </Answer>
-        <Answer>
-          <Info>破解</Info>
-          <IsCorrect>false</IsCorrect>
-        </Answer>
-        <Answer>
-          <Info>破壞</Info>
+          <Info>兩公升</Info>
           <IsCorrect>false</IsCorrect>
         </Answer>
       </Answers>
@@ -211,19 +77,145 @@
       <AddScore>10</AddScore>
     </Question>
     <Question>
-      <Info>What does "Confidant" mean?</Info>
+      <Info>海上遇險求救信號是什麼？</Info>
       <Answers>
         <Answer>
-          <Info>朋友</Info>
+          <Info>SOD</Info>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <Info>自信的</Info>
-          <IsCorrect>false</IsCorrect>
-        </Answer>
-        <Answer>
-          <Info>知己</Info>
+          <Info>SOS</Info>
           <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>SOE</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>false</UseTimer>
+      <Timer>0</Timer>
+      <Type>Single</Type>
+      <AddScore>10</AddScore>
+    </Question>
+    <Question>
+      <Info>海洋中最多的生物是</Info>
+      <Answers>
+        <Answer>
+          <Info>魚</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>浮游生物</Info>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>背殼類動物</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>false</UseTimer>
+      <Timer>0</Timer>
+      <Type>Single</Type>
+      <AddScore>10</AddScore>
+    </Question>
+    <Question>
+      <Info>恐龍屬於</Info>
+      <Answers>
+        <Answer>
+          <Info>兩棲動物</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>爬行動物</Info>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>哺乳類動物</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>false</UseTimer>
+      <Timer>0</Timer>
+      <Type>Single</Type>
+      <AddScore>10</AddScore>
+    </Question>
+    <Question>
+      <Info>狗為什麼總是伸舌頭？</Info>
+      <Answers>
+        <Answer>
+          <Info>天太熱</Info>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>口渴</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>習慣</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>餓了</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>false</UseTimer>
+      <Timer>0</Timer>
+      <Type>Single</Type>
+      <AddScore>10</AddScore>
+    </Question>
+    <Question>
+      <Info>在互聯網中，一般以「.gov」結尾的網址是何類組織的專用一級域名？</Info>
+      <Answers>
+        <Answer>
+          <Info>商業組織</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>政府部門</Info>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>教研機構</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>國際組織</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>false</UseTimer>
+      <Timer>0</Timer>
+      <Type>Single</Type>
+      <AddScore>10</AddScore>
+    </Question>
+    <Question>
+      <Info>鯨魚與長頸鹿頸椎骨</Info>
+      <Answers>
+        <Answer>
+          <Info>相同</Info>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>不相同</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>false</UseTimer>
+      <Timer>0</Timer>
+      <Type>Single</Type>
+      <AddScore>10</AddScore>
+    </Question>
+    <Question>
+      <Info>烏龜的殼</Info>
+      <Answers>
+        <Answer>
+          <Info>是烏龜的骨骼</Info>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>不是烏龜的骨骼</Info>
+          <IsCorrect>false</IsCorrect>
         </Answer>
       </Answers>
       <UseTimer>false</UseTimer>
@@ -232,6 +224,6 @@
       <AddScore>10</AddScore>
     </Question>
   </Questions>
-  <Level>3</Level>
-  <QuestionType>English</QuestionType>
+  <Level>1</Level>
+  <QuestionType>Knowledge</QuestionType>
 </Data>

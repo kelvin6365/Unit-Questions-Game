@@ -2,236 +2,216 @@
 <Data xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Questions>
     <Question>
-      <Info>Which word have the same meaning of "Very easy"?</Info>
+      <Info>下列哪些動物在非洲的原野上是很難看到的？（多選）</Info>
       <Answers>
         <Answer>
-          <Info>Effortless</Info>
+          <Info>獅子</Info>
           <IsCorrect>true</IsCorrect>
         </Answer>
         <Answer>
-          <Info>Workless</Info>
+          <Info>獵豹</Info>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <Info>Freeless</Info>
+          <Info>熊貓</Info>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>長頸鹿</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>袋鼠</Info>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>北極熊</Info>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>10</Timer>
+      <Type>Multi</Type>
+      <AddScore>10</AddScore>
+    </Question>
+    <Question>
+      <Info>地球上出現的潮汐是由於</Info>
+      <Answers>
+        <Answer>
+          <Info>地月吸引力</Info>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>地球的內部力量</Info>
           <IsCorrect>false</IsCorrect>
         </Answer>
       </Answers>
-      <UseTimer>false</UseTimer>
-      <Timer>0</Timer>
+      <UseTimer>true</UseTimer>
+      <Timer>10</Timer>
       <Type>Single</Type>
       <AddScore>10</AddScore>
     </Question>
     <Question>
-      <Info>Which word have the same meaning of "Very excited"?</Info>
+      <Info>人比其他動物聰明，因為人的腦容量格外大</Info>
       <Answers>
         <Answer>
-          <Info>Aroused</Info>
+          <Info>是</Info>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <Info>Thrilled</Info>
-          <IsCorrect>false</IsCorrect>
-        </Answer>
-        <Answer>
-          <Info>Exhilarated </Info>
-          <IsCorrect>false</IsCorrect>
-        </Answer>
-        <Answer>
-          <Info>以上皆是</Info>
+          <Info>非</Info>
           <IsCorrect>true</IsCorrect>
         </Answer>
       </Answers>
-      <UseTimer>false</UseTimer>
-      <Timer>0</Timer>
+      <UseTimer>true</UseTimer>
+      <Timer>10</Timer>
       <Type>Single</Type>
       <AddScore>10</AddScore>
     </Question>
     <Question>
-      <Info>Which word have the same meaning of "Very fat"?</Info>
+      <Info>牛奶比酸奶更富有營養，對嗎？</Info>
       <Answers>
         <Answer>
-          <Info>Overweight</Info>
+          <Info>對</Info>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <Info>Obese</Info>
-          <IsCorrect>false</IsCorrect>
-        </Answer>
-        <Answer>
-          <Info>Abnormally fat</Info>
-          <IsCorrect>false</IsCorrect>
-        </Answer>
-        <Answer>
-          <Info>以上皆是</Info>
+          <Info>不對</Info>
           <IsCorrect>true</IsCorrect>
         </Answer>
       </Answers>
-      <UseTimer>false</UseTimer>
-      <Timer>0</Timer>
+      <UseTimer>true</UseTimer>
+      <Timer>10</Timer>
       <Type>Single</Type>
       <AddScore>10</AddScore>
     </Question>
     <Question>
-      <Info>John is a name but it can mean something else. What does it mean?</Info>
+      <Info>古代六藝，"禮、樂、射、御、書、數"中的"御"是指</Info>
       <Answers>
         <Answer>
-          <Info>強壯的人</Info>
+          <Info>下棋</Info>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <Info>路人甲</Info>
+          <Info>種花</Info>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <Info>廚房</Info>
+          <Info>武術</Info>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <Info>廁所</Info>
+          <Info>駕車</Info>
           <IsCorrect>true</IsCorrect>
         </Answer>
+        <Answer>
+          <Info>跳舞</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
       </Answers>
-      <UseTimer>false</UseTimer>
-      <Timer>0</Timer>
+      <UseTimer>true</UseTimer>
+      <Timer>10</Timer>
       <Type>Single</Type>
       <AddScore>10</AddScore>
     </Question>
     <Question>
-      <Info>Which word have the same meaning of "Very creative"?</Info>
+      <Info>在南極見不到</Info>
       <Answers>
         <Answer>
-          <Info>Tedious</Info>
+          <Info>海豹</Info>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <Info>Perilous</Info>
+          <Info>海象</Info>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <Info>Innovative</Info>
+          <Info>北極熊</Info>
           <IsCorrect>true</IsCorrect>
         </Answer>
       </Answers>
-      <UseTimer>false</UseTimer>
-      <Timer>0</Timer>
+      <UseTimer>true</UseTimer>
+      <Timer>10</Timer>
       <Type>Single</Type>
       <AddScore>10</AddScore>
     </Question>
     <Question>
-      <Info>What is "Relish"?</Info>
+      <Info>貓科動物中最大的是</Info>
       <Answers>
         <Answer>
-          <Info>水果</Info>
-          <IsCorrect>false</IsCorrect>
-        </Answer>
-        <Answer>
-          <Info>蔬菜</Info>
-          <IsCorrect>false</IsCorrect>
-        </Answer>
-        <Answer>
-          <Info>飲品</Info>
-          <IsCorrect>false</IsCorrect>
-        </Answer>
-        <Answer>
-          <Info>醬料</Info>
+          <Info>虎</Info>
           <IsCorrect>true</IsCorrect>
         </Answer>
+        <Answer>
+          <Info>獅</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>豹</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
       </Answers>
-      <UseTimer>false</UseTimer>
-      <Timer>0</Timer>
+      <UseTimer>true</UseTimer>
+      <Timer>10</Timer>
       <Type>Single</Type>
       <AddScore>10</AddScore>
     </Question>
     <Question>
-      <Info>What does "Hone" mean?</Info>
+      <Info>蚯蚓的糞便</Info>
       <Answers>
         <Answer>
-          <Info>磨損</Info>
+          <Info>有臭味</Info>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <Info>磨鍊</Info>
-          <IsCorrect>false</IsCorrect>
-        </Answer>
-        <Answer>
-          <Info>磨石</Info>
+          <Info>沒有臭味</Info>
           <IsCorrect>true</IsCorrect>
         </Answer>
       </Answers>
-      <UseTimer>false</UseTimer>
-      <Timer>0</Timer>
+      <UseTimer>true</UseTimer>
+      <Timer>10</Timer>
       <Type>Single</Type>
       <AddScore>10</AddScore>
     </Question>
     <Question>
-      <Info>What does "Currant" mean?</Info>
+      <Info>為什麼會發生月食？</Info>
       <Answers>
         <Answer>
-          <Info>葡萄乾</Info>
-          <IsCorrect>true</IsCorrect>
-        </Answer>
-        <Answer>
-          <Info>趨勢</Info>
+          <Info>太陽轉到了地球陰影裡</Info>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <Info>葡萄汁</Info>
+          <Info>月亮轉到了地球陰影裡</Info>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>月亮擋住了太陽</Info>
           <IsCorrect>false</IsCorrect>
         </Answer>
       </Answers>
       <UseTimer>false</UseTimer>
-      <Timer>0</Timer>
+      <Timer>10</Timer>
       <Type>Single</Type>
       <AddScore>10</AddScore>
     </Question>
     <Question>
-      <Info>What does "Brake" mean? </Info>
+      <Info>南極沒有北極熊是因為南極</Info>
       <Answers>
         <Answer>
-          <Info>煞車</Info>
+          <Info>海洋環繞</Info>
           <IsCorrect>true</IsCorrect>
         </Answer>
         <Answer>
-          <Info>打破</Info>
-          <IsCorrect>false</IsCorrect>
-        </Answer>
-        <Answer>
-          <Info>破解</Info>
-          <IsCorrect>false</IsCorrect>
-        </Answer>
-        <Answer>
-          <Info>破壞</Info>
+          <Info>氣候太冷</Info>
           <IsCorrect>false</IsCorrect>
         </Answer>
       </Answers>
-      <UseTimer>false</UseTimer>
-      <Timer>0</Timer>
-      <Type>Single</Type>
-      <AddScore>10</AddScore>
-    </Question>
-    <Question>
-      <Info>What does "Confidant" mean?</Info>
-      <Answers>
-        <Answer>
-          <Info>朋友</Info>
-          <IsCorrect>false</IsCorrect>
-        </Answer>
-        <Answer>
-          <Info>自信的</Info>
-          <IsCorrect>false</IsCorrect>
-        </Answer>
-        <Answer>
-          <Info>知己</Info>
-          <IsCorrect>true</IsCorrect>
-        </Answer>
-      </Answers>
-      <UseTimer>false</UseTimer>
-      <Timer>0</Timer>
+      <UseTimer>true</UseTimer>
+      <Timer>10</Timer>
       <Type>Single</Type>
       <AddScore>10</AddScore>
     </Question>
   </Questions>
   <Level>3</Level>
-  <QuestionType>English</QuestionType>
+  <QuestionType>Knowledge</QuestionType>
 </Data>

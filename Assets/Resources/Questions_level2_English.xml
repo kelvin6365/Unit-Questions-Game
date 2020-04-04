@@ -2,36 +2,228 @@
 <Data xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Questions>
     <Question>
-      <Info>Level2 q1 ans: all</Info>
+      <Info>What does "Fork" mean?</Info>
       <Answers>
         <Answer>
-          <Info>1</Info>
-          <IsCorrect>true</IsCorrect>
+          <Info>青蛙</Info>
+          <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <Info>2</Info>
-          <IsCorrect>true</IsCorrect>
+          <Info>人們</Info>
+          <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <Info>3</Info>
+          <Info>幸福</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>叉子</Info>
           <IsCorrect>true</IsCorrect>
         </Answer>
       </Answers>
-      <UseTimer>true</UseTimer>
-      <Timer>10</Timer>
-      <Type>Multi</Type>
+      <UseTimer>false</UseTimer>
+      <Timer>0</Timer>
+      <Type>Single</Type>
       <AddScore>10</AddScore>
     </Question>
     <Question>
-      <Info>Level2 q2 ans: 5</Info>
+      <Info>What does "Petty" mean?</Info>
       <Answers>
         <Answer>
-          <Info>5</Info>
+          <Info>小氣的</Info>
           <IsCorrect>true</IsCorrect>
         </Answer>
         <Answer>
-          <Info>1</Info>
+          <Info>美麗的</Info>
           <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>自信的</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>false</UseTimer>
+      <Timer>0</Timer>
+      <Type>Single</Type>
+      <AddScore>10</AddScore>
+    </Question>
+    <Question>
+      <Info>What does "Forth" mean?</Info>
+      <Answers>
+        <Answer>
+          <Info>第四</Info>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>向前</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>第四十</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>false</UseTimer>
+      <Timer>0</Timer>
+      <Type>Single</Type>
+      <AddScore>10</AddScore>
+    </Question>
+    <Question>
+      <Info>What does "Mourning" mean?</Info>
+      <Answers>
+        <Answer>
+          <Info>早上</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>打呵欠</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>哭笑不得</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>哀悼</Info>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>false</UseTimer>
+      <Timer>0</Timer>
+      <Type>Single</Type>
+      <AddScore>10</AddScore>
+    </Question>
+    <Question>
+      <Info>What does "Staring" mean?</Info>
+      <Answers>
+        <Answer>
+          <Info>開始</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>主演</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>凝視</Info>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>星星閃亮</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>false</UseTimer>
+      <Timer>0</Timer>
+      <Type>Single</Type>
+      <AddScore>10</AddScore>
+    </Question>
+    <Question>
+      <Info>What does "Cloths" mean?</Info>
+      <Answers>
+        <Answer>
+          <Info>布料</Info>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>衣服</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>裁縫</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>false</UseTimer>
+      <Timer>0</Timer>
+      <Type>Single</Type>
+      <AddScore>10</AddScore>
+    </Question>
+    <Question>
+      <Info>What does "Merry" mean?</Info>
+      <Answers>
+        <Answer>
+          <Info>神聖的</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>歡樂的</Info>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>結婚</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>求婚</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>false</UseTimer>
+      <Timer>0</Timer>
+      <Type>Single</Type>
+      <AddScore>10</AddScore>
+    </Question>
+    <Question>
+      <Info>What does "Dyeing" mean?</Info>
+      <Answers>
+        <Answer>
+          <Info>奄奄一息的</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>染色</Info>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>下跌</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>吹風機</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>false</UseTimer>
+      <Timer>0</Timer>
+      <Type>Single</Type>
+      <AddScore>10</AddScore>
+    </Question>
+    <Question>
+      <Info>What dose "Prey" mean?</Info>
+      <Answers>
+        <Answer>
+          <Info>捕食</Info>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>暗灰色</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>祈禱</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>false</UseTimer>
+      <Timer>0</Timer>
+      <Type>Single</Type>
+      <AddScore>10</AddScore>
+    </Question>
+    <Question>
+      <Info>Which word have the same meaning of "Very cute"?</Info>
+      <Answers>
+        <Answer>
+          <Info>Awesome</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Adore</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Adorable</Info>
+          <IsCorrect>true</IsCorrect>
         </Answer>
       </Answers>
       <UseTimer>false</UseTimer>

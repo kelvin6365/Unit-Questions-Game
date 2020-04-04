@@ -21,7 +21,7 @@
           <IsCorrect>false</IsCorrect>
         </Answer>
       </Answers>
-      <UseTimer>true</UseTimer>
+      <UseTimer>false</UseTimer>
       <Timer>10</Timer>
       <Type>Single</Type>
       <AddScore>10</AddScore>
@@ -46,7 +46,7 @@
           <IsCorrect>false</IsCorrect>
         </Answer>
       </Answers>
-      <UseTimer>true</UseTimer>
+      <UseTimer>false</UseTimer>
       <Timer>10</Timer>
       <Type>Single</Type>
       <AddScore>10</AddScore>
@@ -71,7 +71,7 @@
           <IsCorrect>false</IsCorrect>
         </Answer>
       </Answers>
-     <UseTimer>true</UseTimer>
+      <UseTimer>false</UseTimer>
       <Timer>10</Timer>
       <Type>Single</Type>
       <AddScore>10</AddScore>
@@ -96,7 +96,7 @@
           <IsCorrect>false</IsCorrect>
         </Answer>
       </Answers>
-      <UseTimer>true</UseTimer>
+      <UseTimer>false</UseTimer>
       <Timer>10</Timer>
       <Type>Single</Type>
       <AddScore>10</AddScore>

@@ -2,236 +2,228 @@
 <Data xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Questions>
     <Question>
-      <Info>Which word have the same meaning of "Very easy"?</Info>
+      <Info>人體最大的器官是</Info>
       <Answers>
         <Answer>
-          <Info>Effortless</Info>
+          <Info>皮膚</Info>
           <IsCorrect>true</IsCorrect>
         </Answer>
         <Answer>
-          <Info>Workless</Info>
+          <Info>脾</Info>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <Info>Freeless</Info>
+          <Info>肝臟</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>胃</Info>
           <IsCorrect>false</IsCorrect>
         </Answer>
       </Answers>
-      <UseTimer>false</UseTimer>
-      <Timer>0</Timer>
+      <UseTimer>true</UseTimer>
+      <Timer>10</Timer>
       <Type>Single</Type>
       <AddScore>10</AddScore>
     </Question>
     <Question>
-      <Info>Which word have the same meaning of "Very excited"?</Info>
+      <Info>人體最大的解毒器官是</Info>
       <Answers>
         <Answer>
-          <Info>Aroused</Info>
+          <Info>胃</Info>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <Info>Thrilled</Info>
+          <Info>腎臟</Info>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <Info>Exhilarated </Info>
-          <IsCorrect>false</IsCorrect>
-        </Answer>
-        <Answer>
-          <Info>以上皆是</Info>
+          <Info>肝臟</Info>
           <IsCorrect>true</IsCorrect>
         </Answer>
+        <Answer>
+          <Info>脾</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
       </Answers>
-      <UseTimer>false</UseTimer>
-      <Timer>0</Timer>
+      <UseTimer>true</UseTimer>
+      <Timer>10</Timer>
       <Type>Single</Type>
       <AddScore>10</AddScore>
     </Question>
     <Question>
-      <Info>Which word have the same meaning of "Very fat"?</Info>
+      <Info>世界盃足球賽幾年舉辦一次？</Info>
       <Answers>
         <Answer>
-          <Info>Overweight</Info>
+          <Info>二年</Info>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <Info>Obese</Info>
+          <Info>三年</Info>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <Info>Abnormally fat</Info>
-          <IsCorrect>false</IsCorrect>
-        </Answer>
-        <Answer>
-          <Info>以上皆是</Info>
+          <Info>四年</Info>
           <IsCorrect>true</IsCorrect>
         </Answer>
       </Answers>
-      <UseTimer>false</UseTimer>
-      <Timer>0</Timer>
+      <UseTimer>true</UseTimer>
+      <Timer>10</Timer>
       <Type>Single</Type>
       <AddScore>10</AddScore>
     </Question>
     <Question>
-      <Info>John is a name but it can mean something else. What does it mean?</Info>
+      <Info>最初設計牛仔褲上的超小口袋的用途是什麼？</Info>
       <Answers>
         <Answer>
-          <Info>強壯的人</Info>
-          <IsCorrect>false</IsCorrect>
-        </Answer>
-        <Answer>
-          <Info>路人甲</Info>
-          <IsCorrect>false</IsCorrect>
-        </Answer>
-        <Answer>
-          <Info>廚房</Info>
-          <IsCorrect>false</IsCorrect>
-        </Answer>
-        <Answer>
-          <Info>廁所</Info>
+          <Info>放懷錶用</Info>
           <IsCorrect>true</IsCorrect>
         </Answer>
+        <Answer>
+          <Info>放零錢用</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>不小心多縫</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
       </Answers>
-      <UseTimer>false</UseTimer>
-      <Timer>0</Timer>
+      <UseTimer>true</UseTimer>
+      <Timer>10</Timer>
       <Type>Single</Type>
       <AddScore>10</AddScore>
     </Question>
     <Question>
-      <Info>Which word have the same meaning of "Very creative"?</Info>
+      <Info>下列哪個是醫生手術衣為綠色的最主要原因？</Info>
       <Answers>
         <Answer>
-          <Info>Tedious</Info>
-          <IsCorrect>false</IsCorrect>
-        </Answer>
-        <Answer>
-          <Info>Perilous</Info>
-          <IsCorrect>false</IsCorrect>
-        </Answer>
-        <Answer>
-          <Info>Innovative</Info>
+          <Info>避免視覺殘留而發生致命的問題</Info>
           <IsCorrect>true</IsCorrect>
         </Answer>
+        <Answer>
+          <Info>與一般白色醫生袍作區別</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>穿綠色的比較專業</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
       </Answers>
-      <UseTimer>false</UseTimer>
-      <Timer>0</Timer>
+      <UseTimer>true</UseTimer>
+      <Timer>10</Timer>
       <Type>Single</Type>
       <AddScore>10</AddScore>
     </Question>
     <Question>
-      <Info>What is "Relish"?</Info>
+      <Info>鐵達尼號游輪是哪一年沉沒的？</Info>
       <Answers>
         <Answer>
-          <Info>水果</Info>
+          <Info>1910</Info>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <Info>蔬菜</Info>
+          <Info>1911</Info>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <Info>飲品</Info>
-          <IsCorrect>false</IsCorrect>
-        </Answer>
-        <Answer>
-          <Info>醬料</Info>
+          <Info>1912</Info>
           <IsCorrect>true</IsCorrect>
         </Answer>
       </Answers>
-      <UseTimer>false</UseTimer>
-      <Timer>0</Timer>
+      <UseTimer>true</UseTimer>
+      <Timer>10</Timer>
       <Type>Single</Type>
       <AddScore>10</AddScore>
     </Question>
     <Question>
-      <Info>What does "Hone" mean?</Info>
+      <Info>世界上第一張聖誕卡出現在</Info>
       <Answers>
         <Answer>
-          <Info>磨損</Info>
-          <IsCorrect>false</IsCorrect>
-        </Answer>
-        <Answer>
-          <Info>磨鍊</Info>
-          <IsCorrect>false</IsCorrect>
-        </Answer>
-        <Answer>
-          <Info>磨石</Info>
+          <Info>英國</Info>
           <IsCorrect>true</IsCorrect>
         </Answer>
+        <Answer>
+          <Info>美國</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>德國</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>意大利</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
       </Answers>
-      <UseTimer>false</UseTimer>
-      <Timer>0</Timer>
+      <UseTimer>true</UseTimer>
+      <Timer>10</Timer>
       <Type>Single</Type>
       <AddScore>10</AddScore>
     </Question>
     <Question>
-      <Info>What does "Currant" mean?</Info>
+      <Info>一公斤鐵和一公斤棉花哪一個輕？</Info>
       <Answers>
         <Answer>
-          <Info>葡萄乾</Info>
+          <Info>棉花輕</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>鐵</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>一樣重</Info>
           <IsCorrect>true</IsCorrect>
         </Answer>
-        <Answer>
-          <Info>趨勢</Info>
-          <IsCorrect>false</IsCorrect>
-        </Answer>
-        <Answer>
-          <Info>葡萄汁</Info>
-          <IsCorrect>false</IsCorrect>
-        </Answer>
       </Answers>
-      <UseTimer>false</UseTimer>
-      <Timer>0</Timer>
+      <UseTimer>true</UseTimer>
+      <Timer>10</Timer>
       <Type>Single</Type>
       <AddScore>10</AddScore>
     </Question>
     <Question>
-      <Info>What does "Brake" mean? </Info>
+      <Info>多少級以上的地震會造成破壞？</Info>
       <Answers>
         <Answer>
-          <Info>煞車</Info>
+          <Info>4級</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>5級</Info>
           <IsCorrect>true</IsCorrect>
         </Answer>
         <Answer>
-          <Info>打破</Info>
+          <Info>6級</Info>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <Info>破解</Info>
-          <IsCorrect>false</IsCorrect>
-        </Answer>
-        <Answer>
-          <Info>破壞</Info>
+          <Info>7級</Info>
           <IsCorrect>false</IsCorrect>
         </Answer>
       </Answers>
-      <UseTimer>false</UseTimer>
-      <Timer>0</Timer>
+      <UseTimer>true</UseTimer>
+      <Timer>10</Timer>
       <Type>Single</Type>
       <AddScore>10</AddScore>
     </Question>
     <Question>
-      <Info>What does "Confidant" mean?</Info>
+      <Info>墨魚在水中游泳的方向是</Info>
       <Answers>
         <Answer>
-          <Info>朋友</Info>
-          <IsCorrect>false</IsCorrect>
-        </Answer>
-        <Answer>
-          <Info>自信的</Info>
-          <IsCorrect>false</IsCorrect>
-        </Answer>
-        <Answer>
-          <Info>知己</Info>
+          <Info>向後</Info>
           <IsCorrect>true</IsCorrect>
         </Answer>
+        <Answer>
+          <Info>向前</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
       </Answers>
-      <UseTimer>false</UseTimer>
-      <Timer>0</Timer>
+      <UseTimer>true</UseTimer>
+      <Timer>10</Timer>
       <Type>Single</Type>
       <AddScore>10</AddScore>
     </Question>
   </Questions>
-  <Level>3</Level>
-  <QuestionType>English</QuestionType>
+  <Level>2</Level>
+  <QuestionType>Knowledge</QuestionType>
 </Data>

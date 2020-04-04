@@ -2,236 +2,252 @@
 <Data xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Questions>
     <Question>
-      <Info>Which word have the same meaning of "Very easy"?</Info>
+      <Info>人體最堅硬的部分是</Info>
       <Answers>
         <Answer>
-          <Info>Effortless</Info>
+          <Info>指甲</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>牙齒</Info>
           <IsCorrect>true</IsCorrect>
         </Answer>
         <Answer>
-          <Info>Workless</Info>
-          <IsCorrect>false</IsCorrect>
-        </Answer>
-        <Answer>
-          <Info>Freeless</Info>
+          <Info>骨頭</Info>
           <IsCorrect>false</IsCorrect>
         </Answer>
       </Answers>
-      <UseTimer>false</UseTimer>
-      <Timer>0</Timer>
+      <UseTimer>true</UseTimer>
+      <Timer>10</Timer>
       <Type>Single</Type>
       <AddScore>10</AddScore>
     </Question>
     <Question>
-      <Info>Which word have the same meaning of "Very excited"?</Info>
+      <Info>希臘神話中，智慧和戰爭女神是</Info>
       <Answers>
         <Answer>
-          <Info>Aroused</Info>
+          <Info>維納斯</Info>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <Info>Thrilled</Info>
+          <Info>美度莎</Info>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <Info>Exhilarated </Info>
+          <Info>潘多拉</Info>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <Info>以上皆是</Info>
+          <Info>雅典娜</Info>
           <IsCorrect>true</IsCorrect>
         </Answer>
       </Answers>
-      <UseTimer>false</UseTimer>
-      <Timer>0</Timer>
+      <UseTimer>true</UseTimer>
+      <Timer>10</Timer>
       <Type>Single</Type>
       <AddScore>10</AddScore>
     </Question>
     <Question>
-      <Info>Which word have the same meaning of "Very fat"?</Info>
+      <Info>以下哪些作品是宮崎駿的作品？（多選）</Info>
       <Answers>
         <Answer>
-          <Info>Overweight</Info>
+          <Info>千與千尋的神隱</Info>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>龍貓</Info>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <Info>Obese</Info>
+          <Info>紅髮少女安妮</Info>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>天空的守護神</Info>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <Info>Abnormally fat</Info>
+          <Info>貓的報恩</Info>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <Info>以上皆是</Info>
+          <Info>相聚一刻</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>10</Timer>
+      <Type>Multi</Type>
+      <AddScore>10</AddScore>
+    </Question>
+    <Question>
+      <Info>印度婦女額上的紅印是表示？</Info>
+      <Answers>
+        <Answer>
+          <Info>為了美觀而點上的</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>表示我是未婚女子</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>表示這個婦女已婚</Info>
           <IsCorrect>true</IsCorrect>
         </Answer>
       </Answers>
-      <UseTimer>false</UseTimer>
-      <Timer>0</Timer>
+      <UseTimer>true</UseTimer>
+      <Timer>10</Timer>
       <Type>Single</Type>
       <AddScore>10</AddScore>
     </Question>
     <Question>
-      <Info>John is a name but it can mean something else. What does it mean?</Info>
+      <Info>人體有幾根肋骨？</Info>
       <Answers>
         <Answer>
-          <Info>強壯的人</Info>
+          <Info>11</Info>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <Info>路人甲</Info>
+          <Info>12</Info>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <Info>廚房</Info>
+          <Info>22</Info>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <Info>廁所</Info>
+          <Info>24</Info>
           <IsCorrect>true</IsCorrect>
         </Answer>
       </Answers>
       <UseTimer>false</UseTimer>
-      <Timer>0</Timer>
+      <Timer>10</Timer>
       <Type>Single</Type>
       <AddScore>10</AddScore>
     </Question>
     <Question>
-      <Info>Which word have the same meaning of "Very creative"?</Info>
+      <Info>海象媽媽根據什麼辨別孩子</Info>
       <Answers>
         <Answer>
-          <Info>Tedious</Info>
-          <IsCorrect>false</IsCorrect>
-        </Answer>
-        <Answer>
-          <Info>Perilous</Info>
-          <IsCorrect>false</IsCorrect>
-        </Answer>
-        <Answer>
-          <Info>Innovative</Info>
+          <Info>聞小海象嘴中呼出的氣味</Info>
           <IsCorrect>true</IsCorrect>
         </Answer>
+        <Answer>
+          <Info>聞小海象鼻中呼出的氣味</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>舔小海象的眼睛</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
       </Answers>
-      <UseTimer>false</UseTimer>
-      <Timer>0</Timer>
+      <UseTimer>true</UseTimer>
+      <Timer>10</Timer>
       <Type>Single</Type>
       <AddScore>10</AddScore>
     </Question>
     <Question>
-      <Info>What is "Relish"?</Info>
+      <Info>人腦控制人平衡力的是</Info>
       <Answers>
         <Answer>
-          <Info>水果</Info>
+          <Info>大腦</Info>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <Info>蔬菜</Info>
-          <IsCorrect>false</IsCorrect>
-        </Answer>
-        <Answer>
-          <Info>飲品</Info>
-          <IsCorrect>false</IsCorrect>
-        </Answer>
-        <Answer>
-          <Info>醬料</Info>
+          <Info>小腦</Info>
           <IsCorrect>true</IsCorrect>
         </Answer>
+        <Answer>
+          <Info>腦幹</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>腦髓</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
       </Answers>
-      <UseTimer>false</UseTimer>
-      <Timer>0</Timer>
+      <UseTimer>true</UseTimer>
+      <Timer>10</Timer>
       <Type>Single</Type>
       <AddScore>10</AddScore>
     </Question>
     <Question>
-      <Info>What does "Hone" mean?</Info>
+      <Info>世界上最大的淡水湖叫什麼？</Info>
       <Answers>
         <Answer>
-          <Info>磨損</Info>
-          <IsCorrect>false</IsCorrect>
-        </Answer>
-        <Answer>
-          <Info>磨鍊</Info>
-          <IsCorrect>false</IsCorrect>
-        </Answer>
-        <Answer>
-          <Info>磨石</Info>
+          <Info>蘇必利爾湖</Info>
           <IsCorrect>true</IsCorrect>
         </Answer>
+        <Answer>
+          <Info>貝加爾湖</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>裡海</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>安大略湖</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
       </Answers>
-      <UseTimer>false</UseTimer>
-      <Timer>0</Timer>
+      <UseTimer>true</UseTimer>
+      <Timer>10</Timer>
       <Type>Single</Type>
       <AddScore>10</AddScore>
     </Question>
     <Question>
-      <Info>What does "Currant" mean?</Info>
+      <Info>非洲的第一大河是</Info>
       <Answers>
         <Answer>
-          <Info>葡萄乾</Info>
+          <Info>剛果河</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>尼羅河</Info>
           <IsCorrect>true</IsCorrect>
         </Answer>
         <Answer>
-          <Info>趨勢</Info>
+          <Info>尼日爾河</Info>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <Info>葡萄汁</Info>
+          <Info>贊比西河</Info>
           <IsCorrect>false</IsCorrect>
         </Answer>
       </Answers>
-      <UseTimer>false</UseTimer>
-      <Timer>0</Timer>
+      <UseTimer>true</UseTimer>
+      <Timer>10</Timer>
       <Type>Single</Type>
       <AddScore>10</AddScore>
     </Question>
     <Question>
-      <Info>What does "Brake" mean? </Info>
+      <Info>FTG是格鬥遊戲的簡稱,那RPG的簡稱是什麼?</Info>
       <Answers>
         <Answer>
-          <Info>煞車</Info>
+          <Info>射擊遊戲</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>冒險遊戲</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>角色扮演遊戲</Info>
           <IsCorrect>true</IsCorrect>
         </Answer>
         <Answer>
-          <Info>打破</Info>
-          <IsCorrect>false</IsCorrect>
-        </Answer>
-        <Answer>
-          <Info>破解</Info>
-          <IsCorrect>false</IsCorrect>
-        </Answer>
-        <Answer>
-          <Info>破壞</Info>
+          <Info>益智遊戲</Info>
           <IsCorrect>false</IsCorrect>
         </Answer>
       </Answers>
-      <UseTimer>false</UseTimer>
-      <Timer>0</Timer>
-      <Type>Single</Type>
-      <AddScore>10</AddScore>
-    </Question>
-    <Question>
-      <Info>What does "Confidant" mean?</Info>
-      <Answers>
-        <Answer>
-          <Info>朋友</Info>
-          <IsCorrect>false</IsCorrect>
-        </Answer>
-        <Answer>
-          <Info>自信的</Info>
-          <IsCorrect>false</IsCorrect>
-        </Answer>
-        <Answer>
-          <Info>知己</Info>
-          <IsCorrect>true</IsCorrect>
-        </Answer>
-      </Answers>
-      <UseTimer>false</UseTimer>
-      <Timer>0</Timer>
+      <UseTimer>true</UseTimer>
+      <Timer>10</Timer>
       <Type>Single</Type>
       <AddScore>10</AddScore>
     </Question>
   </Questions>
-  <Level>3</Level>
-  <QuestionType>English</QuestionType>
+  <Level>4</Level>
+  <QuestionType>Knowledge</QuestionType>
 </Data>

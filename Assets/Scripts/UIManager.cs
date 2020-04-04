@@ -200,6 +200,7 @@ public class UIManager : MonoBehaviour
                         }
                     }
                 }
+                Debug.Log(currentResult + "  [currentResult]");
                 for (int i = 0; i < currentResult; i++)
                 {
                     uIElements.FinishStarGroup[i].sprite = uIElements.FinishStarActive;

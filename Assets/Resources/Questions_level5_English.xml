@@ -2,18 +2,18 @@
 <Data xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Questions>
     <Question>
-      <Info>Which word have the same meaning of "Very easy"?</Info>
+      <Info>Which word have the same meaning of "Very colourful" ?</Info>
       <Answers>
         <Answer>
-          <Info>Effortless</Info>
+          <Info>Vibrant</Info>
           <IsCorrect>true</IsCorrect>
         </Answer>
         <Answer>
-          <Info>Workless</Info>
+          <Info>Aroused</Info>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <Info>Freeless</Info>
+          <Info>Innovative</Info>
           <IsCorrect>false</IsCorrect>
         </Answer>
       </Answers>
@@ -23,10 +23,161 @@
       <AddScore>10</AddScore>
     </Question>
     <Question>
-      <Info>Which word have the same meaning of "Very excited"?</Info>
+      <Info>Which word have the same meaning of "Very competitive"?</Info>
       <Answers>
         <Answer>
-          <Info>Aroused</Info>
+          <Info>Cutthroat</Info>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Perplexed</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Bustling</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>false</UseTimer>
+      <Timer>0</Timer>
+      <Type>Single</Type>
+      <AddScore>10</AddScore>
+    </Question>
+    <Question>
+      <Info>Which word have the same meaning of "Very confused" ?</Info>
+      <Answers>
+        <Answer>
+          <Info>Arduous</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Perplexed</Info>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Arid</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>false</UseTimer>
+      <Timer>0</Timer>
+      <Type>Single</Type>
+      <AddScore>10</AddScore>
+    </Question>
+    <Question>
+      <Info>Which word have the same meaning of "Very dangerous" ?</Info>
+      <Answers>
+        <Answer>
+          <Info>Swift</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Perilous</Info>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Disparate</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>false</UseTimer>
+      <Timer>0</Timer>
+      <Type>Single</Type>
+      <AddScore>10</AddScore>
+    </Question>
+    <Question>
+      <Info>Which word have the same meaning of "Very detailed" mean?</Info>
+      <Answers>
+        <Answer>
+          <Info>Exhilarating</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Comprehensive</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Meticulous</Info>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>false</UseTimer>
+      <Timer>0</Timer>
+      <Type>Single</Type>
+      <AddScore>10</AddScore>
+    </Question>
+    <Question>
+      <Info>Which word have the same meaning of "Very fancy" mean?</Info>
+      <Answers>
+        <Answer>
+          <Info>Lavish</Info>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Despondent</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Perilous</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>false</UseTimer>
+      <Timer>0</Timer>
+      <Type>Single</Type>
+      <AddScore>10</AddScore>
+    </Question>
+    <Question>
+      <Info>What does "Flounder" mean?</Info>
+      <Answers>
+        <Answer>
+          <Info>飛翔</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>掙扎</Info>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>始創人</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>捐款人</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>false</UseTimer>
+      <Timer>0</Timer>
+      <Type>Single</Type>
+      <AddScore>10</AddScore>
+    </Question>
+    <Question>
+      <Info>What is "Chives" ?</Info>
+      <Answers>
+        <Answer>
+          <Info>動物</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>植物</Info>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>人體器官</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>false</UseTimer>
+      <Timer>0</Timer>
+      <Type>Single</Type>
+      <AddScore>10</AddScore>
+    </Question>
+    <Question>
+      <Info>Which word have the same meaning of "Very depressed"?</Info>
+      <Answers>
+        <Answer>
+          <Info>Exhilarating</Info>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
@@ -34,11 +185,11 @@
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <Info>Exhilarated </Info>
+          <Info>Perplexed</Info>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <Info>以上皆是</Info>
+          <Info>Despondent</Info>
           <IsCorrect>true</IsCorrect>
         </Answer>
       </Answers>
@@ -48,181 +199,18 @@
       <AddScore>10</AddScore>
     </Question>
     <Question>
-      <Info>Which word have the same meaning of "Very fat"?</Info>
+      <Info>Which word have the same meaning of "Very Deep"?</Info>
       <Answers>
         <Answer>
-          <Info>Overweight</Info>
+          <Info>Despondent</Info>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <Info>Obese</Info>
+          <Info>Arduous</Info>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <Info>Abnormally fat</Info>
-          <IsCorrect>false</IsCorrect>
-        </Answer>
-        <Answer>
-          <Info>以上皆是</Info>
-          <IsCorrect>true</IsCorrect>
-        </Answer>
-      </Answers>
-      <UseTimer>false</UseTimer>
-      <Timer>0</Timer>
-      <Type>Single</Type>
-      <AddScore>10</AddScore>
-    </Question>
-    <Question>
-      <Info>John is a name but it can mean something else. What does it mean?</Info>
-      <Answers>
-        <Answer>
-          <Info>強壯的人</Info>
-          <IsCorrect>false</IsCorrect>
-        </Answer>
-        <Answer>
-          <Info>路人甲</Info>
-          <IsCorrect>false</IsCorrect>
-        </Answer>
-        <Answer>
-          <Info>廚房</Info>
-          <IsCorrect>false</IsCorrect>
-        </Answer>
-        <Answer>
-          <Info>廁所</Info>
-          <IsCorrect>true</IsCorrect>
-        </Answer>
-      </Answers>
-      <UseTimer>false</UseTimer>
-      <Timer>0</Timer>
-      <Type>Single</Type>
-      <AddScore>10</AddScore>
-    </Question>
-    <Question>
-      <Info>Which word have the same meaning of "Very creative"?</Info>
-      <Answers>
-        <Answer>
-          <Info>Tedious</Info>
-          <IsCorrect>false</IsCorrect>
-        </Answer>
-        <Answer>
-          <Info>Perilous</Info>
-          <IsCorrect>false</IsCorrect>
-        </Answer>
-        <Answer>
-          <Info>Innovative</Info>
-          <IsCorrect>true</IsCorrect>
-        </Answer>
-      </Answers>
-      <UseTimer>false</UseTimer>
-      <Timer>0</Timer>
-      <Type>Single</Type>
-      <AddScore>10</AddScore>
-    </Question>
-    <Question>
-      <Info>What is "Relish"?</Info>
-      <Answers>
-        <Answer>
-          <Info>水果</Info>
-          <IsCorrect>false</IsCorrect>
-        </Answer>
-        <Answer>
-          <Info>蔬菜</Info>
-          <IsCorrect>false</IsCorrect>
-        </Answer>
-        <Answer>
-          <Info>飲品</Info>
-          <IsCorrect>false</IsCorrect>
-        </Answer>
-        <Answer>
-          <Info>醬料</Info>
-          <IsCorrect>true</IsCorrect>
-        </Answer>
-      </Answers>
-      <UseTimer>false</UseTimer>
-      <Timer>0</Timer>
-      <Type>Single</Type>
-      <AddScore>10</AddScore>
-    </Question>
-    <Question>
-      <Info>What does "Hone" mean?</Info>
-      <Answers>
-        <Answer>
-          <Info>磨損</Info>
-          <IsCorrect>false</IsCorrect>
-        </Answer>
-        <Answer>
-          <Info>磨鍊</Info>
-          <IsCorrect>false</IsCorrect>
-        </Answer>
-        <Answer>
-          <Info>磨石</Info>
-          <IsCorrect>true</IsCorrect>
-        </Answer>
-      </Answers>
-      <UseTimer>false</UseTimer>
-      <Timer>0</Timer>
-      <Type>Single</Type>
-      <AddScore>10</AddScore>
-    </Question>
-    <Question>
-      <Info>What does "Currant" mean?</Info>
-      <Answers>
-        <Answer>
-          <Info>葡萄乾</Info>
-          <IsCorrect>true</IsCorrect>
-        </Answer>
-        <Answer>
-          <Info>趨勢</Info>
-          <IsCorrect>false</IsCorrect>
-        </Answer>
-        <Answer>
-          <Info>葡萄汁</Info>
-          <IsCorrect>false</IsCorrect>
-        </Answer>
-      </Answers>
-      <UseTimer>false</UseTimer>
-      <Timer>0</Timer>
-      <Type>Single</Type>
-      <AddScore>10</AddScore>
-    </Question>
-    <Question>
-      <Info>What does "Brake" mean? </Info>
-      <Answers>
-        <Answer>
-          <Info>煞車</Info>
-          <IsCorrect>true</IsCorrect>
-        </Answer>
-        <Answer>
-          <Info>打破</Info>
-          <IsCorrect>false</IsCorrect>
-        </Answer>
-        <Answer>
-          <Info>破解</Info>
-          <IsCorrect>false</IsCorrect>
-        </Answer>
-        <Answer>
-          <Info>破壞</Info>
-          <IsCorrect>false</IsCorrect>
-        </Answer>
-      </Answers>
-      <UseTimer>false</UseTimer>
-      <Timer>0</Timer>
-      <Type>Single</Type>
-      <AddScore>10</AddScore>
-    </Question>
-    <Question>
-      <Info>What does "Confidant" mean?</Info>
-      <Answers>
-        <Answer>
-          <Info>朋友</Info>
-          <IsCorrect>false</IsCorrect>
-        </Answer>
-        <Answer>
-          <Info>自信的</Info>
-          <IsCorrect>false</IsCorrect>
-        </Answer>
-        <Answer>
-          <Info>知己</Info>
+          <Info>Profound</Info>
           <IsCorrect>true</IsCorrect>
         </Answer>
       </Answers>
@@ -232,6 +220,6 @@
       <AddScore>10</AddScore>
     </Question>
   </Questions>
-  <Level>3</Level>
+  <Level>5</Level>
   <QuestionType>English</QuestionType>
 </Data>
