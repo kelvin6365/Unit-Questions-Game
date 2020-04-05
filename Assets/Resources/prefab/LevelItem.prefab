@@ -168,6 +168,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 766af4ce3ecfbfc429e84e70a72f3287, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  events: {fileID: 11400000, guid: c56a41cad040de7449971f50d17ea9bb, type: 2}
   sceneName: Game
 --- !u!114 &8653526006350116815
 MonoBehaviour:

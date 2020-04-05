@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 8a2b9e2a607dd2143b58c44bc32410b4
+guid: a6824548488f84f75bbe56650b6f71b1
 TrueTypeFontImporter:
   externalObjects: {}
   serializedVersion: 4
@@ -8,9 +8,9 @@ TrueTypeFontImporter:
   characterSpacing: 0
   characterPadding: 1
   includeFontData: 1
-  fontName: Electronic Highway Sign
+  fontName: Comic Sans MS
   fontNames:
-  - Electronic Highway Sign
+  - Comic Sans MS
   fallbackFontReferences: []
   customCharacters: 
   fontRenderingMode: 0
