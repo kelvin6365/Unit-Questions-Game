@@ -33,7 +33,7 @@ public class TypeManager : MonoBehaviour
 
         GameObject newTypePrefab = (GameObject)Instantiate(TypeItem, TypeItemArea);
         newTypePrefab.GetComponentInChildren<Text>().text = gameManager.QuestionTypeLevels[id].QuestionType;
-        newTypePrefab.transform.GetChild(1).gameObject.GetComponent<Image>().sprite = gameManager.QuestionTypeLevels[id].Logo;
+        newTypePrefab.transform.GetChild(0).gameObject.GetComponent<Image>().sprite = gameManager.QuestionTypeLevels[id].Logo;
 
     }
 
