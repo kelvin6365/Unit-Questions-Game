@@ -188,7 +188,9 @@ public class UIManager : MonoBehaviour
                 }
                 else
                 {
-                    if (events.CurrentFinalScore <= scorePreStar * 2 && events.CurrentFinalScore > scorePreStar)
+                    if (
+                    // events.CurrentFinalScore <= (scorePreStar * 2) && 
+                    events.CurrentFinalScore > scorePreStar)
                     {
                         currentResult = 2;
                     }
@@ -200,7 +202,7 @@ public class UIManager : MonoBehaviour
                         }
                     }
                 }
-                Debug.Log(currentResult + "  [currentResult]");
+                Debug.Log(currentResult + "  [currentResult] " + scorePreStar);
                 for (int i = 0; i < currentResult; i++)
                 {
                     uIElements.FinishStarGroup[i].sprite = uIElements.FinishStarActive;
@@ -222,7 +224,9 @@ public class UIManager : MonoBehaviour
                     }
                     else
                     {
-                        if (highscore <= scorePreStar * 2 && highscore > scorePreStar)
+                        if (
+                            // highscore <= scorePreStar * 2 && 
+                            highscore > scorePreStar)
                         {
                             PlayerPrefs.SetInt(events.SelectedQuestionType + "_" + GameUtility.SavePrefKey + events.isLevel.ToString() + "_State", 2);
                             for (int i = 0; i < (uIElements.FinishStarGroup.Length - 1); i++)
