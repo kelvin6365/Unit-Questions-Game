@@ -2,196 +2,220 @@
 <Data xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Questions>
     <Question>
-      <Info>著跑鞋可跑步，著爬山鞋可爬山，著什麼識飛?</Info>
+      <Info>俄羅斯的面積比__還要大</Info>
       <Answers>
         <Answer>
-          <Info>著飛鞋</Info>
-          <IsCorrect>false</IsCorrect>
-        </Answer>
-        <Answer>
-          <Info>著仔</Info>
+          <Info>中國</Info>
           <IsCorrect>true</IsCorrect>
         </Answer>
         <Answer>
-          <Info>著火箭鞋</Info>
-          <IsCorrect>false</IsCorrect>
+          <Info>冥王星</Info>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>美國</Info>
+          <IsCorrect>true</IsCorrect>
         </Answer>
       </Answers>
-      <UseTimer>true</UseTimer>
-      <Timer>10</Timer>
+      <UseTimer>false</UseTimer>
+      <Timer>0</Timer>
+      <Type>Multi</Type>
+      <AddScore>10</AddScore>
+    </Question>
+    <Question>
+      <Info>__可以從屁股呼吸</Info>
+      <Answers>
+        <Answer>
+          <Info>水母</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>蛇</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>烏龜</Info>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>false</UseTimer>
+      <Timer>0</Timer>
       <Type>Single</Type>
       <AddScore>10</AddScore>
     </Question>
     <Question>
-      <Info>BB 夜半哭起來，什麼方法只用一隻腳泡牛奶?</Info>
+      <Info>獨角獸是__的國獸</Info>
       <Answers>
         <Answer>
-          <Info>單腳泡</Info>
+          <Info>英國</Info>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <Info>用腳踢醒老公 / 老婆</Info>
+          <Info>蘇格蘭</Info>
           <IsCorrect>true</IsCorrect>
         </Answer>
+        <Answer>
+          <Info>芬蘭</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>瑞典</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
       </Answers>
-      <UseTimer>true</UseTimer>
-      <Timer>10</Timer>
+      <UseTimer>false</UseTimer>
+      <Timer>0</Timer>
       <Type>Single</Type>
       <AddScore>10</AddScore>
     </Question>
     <Question>
-      <Info>有人失足跌下，但沒有事，只死了一隻雞，為什麼?</Info>
+      <Info>法國香水一開始會盛行是因為__</Info>
       <Answers>
         <Answer>
-          <Info>殺雞還神</Info>
+          <Info>明星效應</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>瘟疫盛行</Info>
           <IsCorrect>true</IsCorrect>
         </Answer>
         <Answer>
-          <Info>壓死了隻雞</Info>
+          <Info>稀有</Info>
           <IsCorrect>false</IsCorrect>
         </Answer>
       </Answers>
-      <UseTimer>true</UseTimer>
-      <Timer>10</Timer>
+      <UseTimer>false</UseTimer>
+      <Timer>0</Timer>
       <Type>Single</Type>
       <AddScore>10</AddScore>
     </Question>
     <Question>
-      <Info>老公好靚仔 (猜香港一地方名)</Info>
+      <Info>腰圍的__約等於頸圍</Info>
       <Answers>
         <Answer>
-          <Info>美浮</Info>
+          <Info>1/2</Info>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>1/3</Info>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <Info>美孚</Info>
-          <IsCorrect>true</IsCorrect>
+          <Info>1/4</Info>
+          <IsCorrect>false</IsCorrect>
         </Answer>
       </Answers>
-      <UseTimer>true</UseTimer>
-      <Timer>10</Timer>
+      <UseTimer>false</UseTimer>
+      <Timer>0</Timer>
       <Type>Single</Type>
       <AddScore>10</AddScore>
     </Question>
     <Question>
-      <Info>多啦A夢中,誰長大了成為了醫生?</Info>
+      <Info>一隻鯊魚可以偵測到水中僅__分之一含量的血液</Info>
       <Answers>
         <Answer>
-          <Info>大雄</Info>
+          <Info>千萬</Info>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <Info>小夫</Info>
+          <Info>百萬</Info>
           <IsCorrect>true</IsCorrect>
         </Answer>
         <Answer>
-          <Info>靜香</Info>
+          <Info>十萬</Info>
           <IsCorrect>false</IsCorrect>
         </Answer>
       </Answers>
-      <UseTimer>true</UseTimer>
-      <Timer>10</Timer>
+      <UseTimer>false</UseTimer>
+      <Timer>0</Timer>
       <Type>Single</Type>
       <AddScore>10</AddScore>
     </Question>
     <Question>
-      <Info>有一人外出時下雨，小明全身濕透，但頭髮沒濕，為什麼?</Info>
+      <Info>愛因斯坦_歲時不能流利說話，他媽媽曾經一度以為他是弱智</Info>
       <Answers>
         <Answer>
-          <Info>戴了帽子</Info>
+          <Info>7</Info>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <Info>沒有頭髮</Info>
+          <Info>8</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>9</Info>
           <IsCorrect>true</IsCorrect>
         </Answer>
       </Answers>
-      <UseTimer>true</UseTimer>
-      <Timer>10</Timer>
+      <UseTimer>false</UseTimer>
+      <Timer>0</Timer>
       <Type>Single</Type>
       <AddScore>10</AddScore>
     </Question>
     <Question>
-      <Info>航空公司開幕 (猜一成語)</Info>
+      <Info>沒有一張紙可對折超過_次</Info>
       <Answers>
         <Answer>
-          <Info>千載難逢</Info>
+          <Info>7</Info>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <Info>有機可乘</Info>
+          <Info>8</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>9</Info>
           <IsCorrect>true</IsCorrect>
         </Answer>
       </Answers>
-      <UseTimer>true</UseTimer>
-      <Timer>10</Timer>
+      <UseTimer>false</UseTimer>
+      <Timer>0</Timer>
       <Type>Single</Type>
       <AddScore>10</AddScore>
     </Question>
     <Question>
-      <Info>走來行走不願走 (猜一水果)</Info>
+      <Info>海星有_隻眼</Info>
       <Answers>
         <Answer>
-          <Info>石榴</Info>
+          <Info>7</Info>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <Info>蘋果</Info>
-          <IsCorrect>false</IsCorrect>
-        </Answer>
-        <Answer>
-          <Info>榴槤</Info>
+          <Info>8</Info>
           <IsCorrect>true</IsCorrect>
         </Answer>
+        <Answer>
+          <Info>9</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
       </Answers>
-      <UseTimer>true</UseTimer>
-      <Timer>10</Timer>
+      <UseTimer>false</UseTimer>
+      <Timer>0</Timer>
       <Type>Single</Type>
       <AddScore>10</AddScore>
     </Question>
     <Question>
-      <Info>什麼時候是摘蘋果的最佳時機?</Info>
+      <Info>夏威夷文只得__個字母</Info>
       <Answers>
         <Answer>
-          <Info>春天</Info>
+          <Info>10</Info>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <Info>夏天</Info>
+          <Info>11</Info>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <Info>蘋果成熟時</Info>
+          <Info>12</Info>
           <IsCorrect>true</IsCorrect>
         </Answer>
       </Answers>
-      <UseTimer>true</UseTimer>
-      <Timer>10</Timer>
-      <Type>Single</Type>
-      <AddScore>10</AddScore>
-    </Question>
-    <Question>
-      <Info>大學聯考放榜了，為什麼志明榜上無名卻一點也不難過？因為志明..</Info>
-      <Answers>
-        <Answer>
-          <Info>已經放棄讀書</Info>
-          <IsCorrect>false</IsCorrect>
-        </Answer>
-        <Answer>
-          <Info>已經看開了</Info>
-          <IsCorrect>false</IsCorrect>
-        </Answer>
-        <Answer>
-          <Info>讀小學的</Info>
-          <IsCorrect>true</IsCorrect>
-        </Answer>
-      </Answers>
-      <UseTimer>true</UseTimer>
-      <Timer>10</Timer>
+      <UseTimer>false</UseTimer>
+      <Timer>0</Timer>
       <Type>Single</Type>
       <AddScore>10</AddScore>
     </Question>
   </Questions>
-  <Level>1</Level>
-  <QuestionType>IQ</QuestionType>
+  <Level>5</Level>
+  <QuestionType>Trivia</QuestionType>
 </Data>

@@ -2,256 +2,220 @@
 <Data xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Questions>
     <Question>
-      <Info>What does "Awesome" mean?</Info>
+      <Info>怎樣才能避免夫妻離婚?</Info>
       <Answers>
         <Answer>
-          <Info>型</Info>
-          <IsCorrect>false</IsCorrect>
-        </Answer>
-        <Answer>
-          <Info>非常好</Info>
+          <Info>不要結婚</Info>
           <IsCorrect>true</IsCorrect>
         </Answer>
         <Answer>
-          <Info>帥</Info>
+          <Info>不要生孩子</Info>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <Info>以上皆是</Info>
+          <Info>不要吵架</Info>
           <IsCorrect>false</IsCorrect>
         </Answer>
       </Answers>
-      <UseTimer>false</UseTimer>
-      <Timer>0</Timer>
+      <UseTimer>true</UseTimer>
+      <Timer>10</Timer>
       <Type>Single</Type>
       <AddScore>10</AddScore>
     </Question>
     <Question>
-      <Info>What does "Deep pocket" mean?</Info>
+      <Info>黑人為什麼不喜歡吃黑色的巧克力?</Info>
       <Answers>
         <Answer>
-          <Info>深袋子</Info>
+          <Info>感覺上同類相殘</Info>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <Info>長袋子</Info>
+          <Info>覺得嘔心</Info>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <Info>有錢</Info>
+          <Info>怕咬到手指</Info>
           <IsCorrect>true</IsCorrect>
         </Answer>
-        <Answer>
-          <Info>以上皆非</Info>
-          <IsCorrect>false</IsCorrect>
-        </Answer>
       </Answers>
-      <UseTimer>false</UseTimer>
-      <Timer>0</Timer>
+      <UseTimer>true</UseTimer>
+      <Timer>10</Timer>
       <Type>Single</Type>
       <AddScore>10</AddScore>
     </Question>
     <Question>
-      <Info>What does "Freaking out" mean?</Info>
+      <Info>有個人一聽到音樂，手會不停咁震，但醫生診斷為沒有病，為什麼?</Info>
       <Answers>
         <Answer>
-          <Info>怪胎</Info>
+          <Info>醫生誤診</Info>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <Info>驚慌</Info>
+          <Info>那個人是指揮家</Info>
           <IsCorrect>true</IsCorrect>
         </Answer>
         <Answer>
-          <Info>冷靜</Info>
-          <IsCorrect>false</IsCorrect>
-        </Answer>
-        <Answer>
-          <Info>以上皆非</Info>
+          <Info>那個人沒救了</Info>
           <IsCorrect>false</IsCorrect>
         </Answer>
       </Answers>
-      <UseTimer>false</UseTimer>
-      <Timer>0</Timer>
+      <UseTimer>true</UseTimer>
+      <Timer>10</Timer>
       <Type>Single</Type>
       <AddScore>10</AddScore>
     </Question>
     <Question>
-      <Info>What is the meaning of "Go for it"?</Info>
+      <Info>鯊魚吃了紅豆會變什麼?</Info>
       <Answers>
         <Answer>
-          <Info>跑過去</Info>
+          <Info>豆沙包</Info>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <Info>衝過去</Info>
+          <Info>紅鯊</Info>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <Info>加油</Info>
+          <Info>紅豆鯊</Info>
           <IsCorrect>true</IsCorrect>
         </Answer>
-        <Answer>
-          <Info>以上皆非</Info>
-          <IsCorrect>false</IsCorrect>
-        </Answer>
       </Answers>
-      <UseTimer>false</UseTimer>
-      <Timer>0</Timer>
+      <UseTimer>true</UseTimer>
+      <Timer>10</Timer>
       <Type>Single</Type>
       <AddScore>10</AddScore>
     </Question>
     <Question>
-      <Info>What does "Base" mean?</Info>
+      <Info>什麼桶是美國最大?</Info>
       <Answers>
         <Answer>
-          <Info>低音結他</Info>
+          <Info>油桶</Info>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <Info>底部</Info>
+          <Info>KFC桶餐</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>總統</Info>
           <IsCorrect>true</IsCorrect>
         </Answer>
-        <Answer>
-          <Info>結他</Info>
-          <IsCorrect>false</IsCorrect>
-        </Answer>
-        <Answer>
-          <Info>以上皆非</Info>
-          <IsCorrect>false</IsCorrect>
-        </Answer>
       </Answers>
-      <UseTimer>false</UseTimer>
-      <Timer>0</Timer>
+      <UseTimer>true</UseTimer>
+      <Timer>10</Timer>
       <Type>Single</Type>
       <AddScore>10</AddScore>
     </Question>
     <Question>
-      <Info>What does "Straws" mean?</Info>
+      <Info>在照片中可以看到，但在鏡中自己卻不能看到的是什麼呢?</Info>
       <Answers>
         <Answer>
-          <Info>草莓簡寫</Info>
+          <Info>鬼魂</Info>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <Info>草莓</Info>
+          <Info>UFO</Info>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <Info>吸管</Info>
+          <Info>自己的睡相</Info>
           <IsCorrect>true</IsCorrect>
         </Answer>
-        <Answer>
-          <Info>以上皆非</Info>
-          <IsCorrect>false</IsCorrect>
-        </Answer>
       </Answers>
-      <UseTimer>false</UseTimer>
-      <Timer>0</Timer>
+      <UseTimer>true</UseTimer>
+      <Timer>10</Timer>
       <Type>Single</Type>
       <AddScore>10</AddScore>
     </Question>
     <Question>
-      <Info>What does "Napkins" mean?</Info>
+      <Info>一架飛機飛到一半突然沒油，什麼東西會先掉下來?</Info>
       <Answers>
         <Answer>
-          <Info>尿布</Info>
+          <Info>飛機</Info>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <Info>餐巾</Info>
-          <IsCorrect>false</IsCorrect>
-        </Answer>
-        <Answer>
-          <Info>紙巾</Info>
-          <IsCorrect>false</IsCorrect>
-        </Answer>
-        <Answer>
-          <Info>以上皆是</Info>
+          <Info>油錶上的指針</Info>
           <IsCorrect>true</IsCorrect>
         </Answer>
+        <Answer>
+          <Info>飛機上的人</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
       </Answers>
-      <UseTimer>false</UseTimer>
-      <Timer>0</Timer>
+      <UseTimer>true</UseTimer>
+      <Timer>10</Timer>
       <Type>Single</Type>
       <AddScore>10</AddScore>
     </Question>
     <Question>
-      <Info>What does "Drag" mean?</Info>
+      <Info>一隻貓坐在窗前看風景，窗外有公園、馬路和招牌，究竟哪一物件與貓最接近?</Info>
       <Answers>
         <Answer>
-          <Info>推</Info>
+          <Info>公園</Info>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <Info>拉</Info>
+          <Info>馬路</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>招牌</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>窗</Info>
           <IsCorrect>true</IsCorrect>
         </Answer>
-        <Answer>
-          <Info>耙</Info>
-          <IsCorrect>false</IsCorrect>
-        </Answer>
-        <Answer>
-          <Info>頂</Info>
-          <IsCorrect>false</IsCorrect>
-        </Answer>
       </Answers>
-      <UseTimer>false</UseTimer>
-      <Timer>0</Timer>
+      <UseTimer>true</UseTimer>
+      <Timer>10</Timer>
       <Type>Single</Type>
       <AddScore>10</AddScore>
     </Question>
     <Question>
-      <Info>What does "Swing" mean?</Info>
+      <Info>動物園中，大象鼻子最長，鼻子第二長的是什麼?</Info>
       <Answers>
         <Answer>
-          <Info>拉扯</Info>
+          <Info>食蟻獸</Info>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <Info>搖擺</Info>
+          <Info>小象</Info>
           <IsCorrect>true</IsCorrect>
         </Answer>
         <Answer>
-          <Info>搖頭</Info>
-          <IsCorrect>false</IsCorrect>
-        </Answer>
-        <Answer>
-          <Info>以上皆非</Info>
+          <Info>狒狒</Info>
           <IsCorrect>false</IsCorrect>
         </Answer>
       </Answers>
-      <UseTimer>false</UseTimer>
-      <Timer>0</Timer>
+      <UseTimer>true</UseTimer>
+      <Timer>10</Timer>
       <Type>Single</Type>
       <AddScore>10</AddScore>
     </Question>
     <Question>
-      <Info>What does "Dork" mean?</Info>
+      <Info>什麼文具是有五個腦?</Info>
       <Answers>
         <Answer>
-          <Info>書呆子</Info>
+          <Info>間尺</Info>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <Info>怪人</Info>
+          <Info>文件夾</Info>
           <IsCorrect>true</IsCorrect>
         </Answer>
         <Answer>
-          <Info>高個子</Info>
-          <IsCorrect>false</IsCorrect>
-        </Answer>
-        <Answer>
-          <Info>以上皆非</Info>
+          <Info>5色筆</Info>
           <IsCorrect>false</IsCorrect>
         </Answer>
       </Answers>
-      <UseTimer>false</UseTimer>
-      <Timer>0</Timer>
+      <UseTimer>true</UseTimer>
+      <Timer>10</Timer>
       <Type>Single</Type>
       <AddScore>10</AddScore>
     </Question>
   </Questions>
-  <Level>1</Level>
-  <QuestionType>English</QuestionType>
+  <Level>4</Level>
+  <QuestionType>IQ</QuestionType>
 </Data>

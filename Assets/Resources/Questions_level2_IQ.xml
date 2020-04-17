@@ -2,35 +2,18 @@
 <Data xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Questions>
     <Question>
-      <Info>著跑鞋可跑步，著爬山鞋可爬山，著什麼識飛?</Info>
+      <Info>青春痘長在哪裡最不擔心?</Info>
       <Answers>
         <Answer>
-          <Info>著飛鞋</Info>
+          <Info>屁股</Info>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <Info>著仔</Info>
-          <IsCorrect>true</IsCorrect>
-        </Answer>
-        <Answer>
-          <Info>著火箭鞋</Info>
-          <IsCorrect>false</IsCorrect>
-        </Answer>
-      </Answers>
-      <UseTimer>true</UseTimer>
-      <Timer>10</Timer>
-      <Type>Single</Type>
-      <AddScore>10</AddScore>
-    </Question>
-    <Question>
-      <Info>BB 夜半哭起來，什麼方法只用一隻腳泡牛奶?</Info>
-      <Answers>
-        <Answer>
-          <Info>單腳泡</Info>
+          <Info>背後</Info>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <Info>用腳踢醒老公 / 老婆</Info>
+          <Info>別人身上</Info>
           <IsCorrect>true</IsCorrect>
         </Answer>
       </Answers>
@@ -40,14 +23,14 @@
       <AddScore>10</AddScore>
     </Question>
     <Question>
-      <Info>有人失足跌下，但沒有事，只死了一隻雞，為什麼?</Info>
+      <Info>天氣愈來愈冷，為什麼小華不多加件衣服，反而要脫衣服?因為小華..</Info>
       <Answers>
         <Answer>
-          <Info>殺雞還神</Info>
+          <Info>要洗澡</Info>
           <IsCorrect>true</IsCorrect>
         </Answer>
         <Answer>
-          <Info>壓死了隻雞</Info>
+          <Info>不怕冷</Info>
           <IsCorrect>false</IsCorrect>
         </Answer>
       </Answers>
@@ -57,14 +40,18 @@
       <AddScore>10</AddScore>
     </Question>
     <Question>
-      <Info>老公好靚仔 (猜香港一地方名)</Info>
+      <Info>甚麼門不能開亦不能關?</Info>
       <Answers>
         <Answer>
-          <Info>美浮</Info>
+          <Info>自動門</Info>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <Info>美孚</Info>
+          <Info>甩門</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>龍門</Info>
           <IsCorrect>true</IsCorrect>
         </Answer>
       </Answers>
@@ -74,18 +61,39 @@
       <AddScore>10</AddScore>
     </Question>
     <Question>
-      <Info>多啦A夢中,誰長大了成為了醫生?</Info>
+      <Info>偷甚麼不犯法?</Info>
       <Answers>
         <Answer>
-          <Info>大雄</Info>
+          <Info>偷渡</Info>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <Info>小夫</Info>
+          <Info>偷懶</Info>
           <IsCorrect>true</IsCorrect>
         </Answer>
         <Answer>
-          <Info>靜香</Info>
+          <Info>偷笑</Info>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>10</Timer>
+      <Type>Multi</Type>
+      <AddScore>10</AddScore>
+    </Question>
+    <Question>
+      <Info>為甚麼母雞的腿這麼短?</Info>
+      <Answers>
+        <Answer>
+          <Info>方便跑</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>方便下蛋</Info>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>方便進食</Info>
           <IsCorrect>false</IsCorrect>
         </Answer>
       </Answers>
@@ -95,14 +103,18 @@
       <AddScore>10</AddScore>
     </Question>
     <Question>
-      <Info>有一人外出時下雨，小明全身濕透，但頭髮沒濕，為什麼?</Info>
+      <Info>你可知＜辭海＞有多少字?</Info>
       <Answers>
         <Answer>
-          <Info>戴了帽子</Info>
+          <Info>三十個字</Info>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <Info>沒有頭髮</Info>
+          <Info>三十一個字</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>兩個字</Info>
           <IsCorrect>true</IsCorrect>
         </Answer>
       </Answers>
@@ -112,14 +124,39 @@
       <AddScore>10</AddScore>
     </Question>
     <Question>
-      <Info>航空公司開幕 (猜一成語)</Info>
+      <Info>一個農夫，每天用兩隻蛋做早餐，但他沒有養雞，又沒有去買，亦沒有人送給他，為什麼他有蛋做早餐?</Info>
       <Answers>
         <Answer>
-          <Info>千載難逢</Info>
+          <Info>別人有養雞</Info>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <Info>有機可乘</Info>
+          <Info>自己有養鴨</Info>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>別人有養鴨</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>10</Timer>
+      <Type>Single</Type>
+      <AddScore>10</AddScore>
+    </Question>
+    <Question>
+      <Info>計算機能提高效率，但甚麼機卻相反會降低工作效率呢?</Info>
+      <Answers>
+        <Answer>
+          <Info>手機</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>相機</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>當機</Info>
           <IsCorrect>true</IsCorrect>
         </Answer>
       </Answers>
@@ -129,19 +166,19 @@
       <AddScore>10</AddScore>
     </Question>
     <Question>
-      <Info>走來行走不願走 (猜一水果)</Info>
+      <Info>為什麼劉小姐堅持結婚以後不跟丈夫姓？因為她丈夫姓..</Info>
       <Answers>
         <Answer>
-          <Info>石榴</Info>
+          <Info>劉</Info>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <Info>蘋果</Info>
-          <IsCorrect>false</IsCorrect>
-        </Answer>
-        <Answer>
-          <Info>榴槤</Info>
+          <Info>夏</Info>
           <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>王</Info>
+          <IsCorrect>false</IsCorrect>
         </Answer>
       </Answers>
       <UseTimer>true</UseTimer>
@@ -150,39 +187,18 @@
       <AddScore>10</AddScore>
     </Question>
     <Question>
-      <Info>什麼時候是摘蘋果的最佳時機?</Info>
+      <Info>食什麼昆蟲會瘦?</Info>
       <Answers>
         <Answer>
-          <Info>春天</Info>
+          <Info>麵包蟲</Info>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <Info>夏天</Info>
+          <Info>蚊子</Info>
           <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
-          <Info>蘋果成熟時</Info>
-          <IsCorrect>true</IsCorrect>
-        </Answer>
-      </Answers>
-      <UseTimer>true</UseTimer>
-      <Timer>10</Timer>
-      <Type>Single</Type>
-      <AddScore>10</AddScore>
-    </Question>
-    <Question>
-      <Info>大學聯考放榜了，為什麼志明榜上無名卻一點也不難過？因為志明..</Info>
-      <Answers>
-        <Answer>
-          <Info>已經放棄讀書</Info>
-          <IsCorrect>false</IsCorrect>
-        </Answer>
-        <Answer>
-          <Info>已經看開了</Info>
-          <IsCorrect>false</IsCorrect>
-        </Answer>
-        <Answer>
-          <Info>讀小學的</Info>
+          <Info>蟻</Info>
           <IsCorrect>true</IsCorrect>
         </Answer>
       </Answers>
@@ -192,6 +208,6 @@
       <AddScore>10</AddScore>
     </Question>
   </Questions>
-  <Level>1</Level>
+  <Level>2</Level>
   <QuestionType>IQ</QuestionType>
 </Data>
