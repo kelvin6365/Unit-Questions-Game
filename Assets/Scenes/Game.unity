@@ -659,6 +659,7 @@ GameObject:
   - component: {fileID: 190695471}
   - component: {fileID: 190695473}
   - component: {fileID: 190695472}
+  - component: {fileID: 190695474}
   m_Layer: 5
   m_Name: Image
   m_TagString: Untagged
@@ -703,7 +704,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 01d5af475175bdf4894d53d338840285, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e9cb9ffc0d5c4ff4bb1e721a106abee9, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -721,6 +722,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 190695470}
   m_CullTransparentMesh: 0
+--- !u!114 &190695474
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 190695470}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfabb0440166ab443bba8876756fdfa9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
+  m_EffectDistance: {x: 7, y: -7}
+  m_UseGraphicAlpha: 1
 --- !u!1 &256754040
 GameObject:
   m_ObjectHideFlags: 0
@@ -1336,8 +1352,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 242, y: -109.5}
-  m_SizeDelta: {x: 369.8, y: 137.8}
+  m_AnchoredPosition: {x: 245.3, y: -109.5}
+  m_SizeDelta: {x: 376.4, y: 137.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &643290753
 GameObject:
@@ -2192,6 +2208,7 @@ GameObject:
   - component: {fileID: 997859234}
   - component: {fileID: 997859233}
   - component: {fileID: 997859232}
+  - component: {fileID: 997859231}
   m_Layer: 5
   m_Name: PasueButton
   m_TagString: Untagged
@@ -2219,6 +2236,24 @@ RectTransform:
   m_AnchoredPosition: {x: -58.5, y: -26.300293}
   m_SizeDelta: {x: 150, y: 150}
   m_Pivot: {x: 1, y: 1}
+--- !u!114 &997859231
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 997859229}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0848bff101191904ead4bb831f7084db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_BlurFactor: 1
+  m_Style: 1
+  m_AdditionalShadows: []
+  m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
+  m_EffectDistance: {x: 10, y: -10}
+  m_UseGraphicAlpha: 1
 --- !u!114 &997859232
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3599,7 +3634,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 6.9252}
+  m_AnchoredPosition: {x: 0, y: -1}
   m_SizeDelta: {x: 266.1, y: 123.95}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1618601460
@@ -3615,7 +3650,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
