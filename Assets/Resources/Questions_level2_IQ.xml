@@ -61,7 +61,7 @@
       <AddScore>10</AddScore>
     </Question>
     <Question>
-      <Info>偷甚麼不犯法?</Info>
+      <Info>偷甚麼不犯法? (可多選)</Info>
       <Answers>
         <Answer>
           <Info>偷渡</Info>

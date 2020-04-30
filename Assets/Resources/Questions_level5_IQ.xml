@@ -2,18 +2,18 @@
 <Data xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Questions>
     <Question>
-      <Info>一年之中，哪些月份有二十八日呢?</Info>
+      <Info>以下哪些月份，有二十八日呢? (可多選)</Info>
       <Answers>
         <Answer>
           <Info>二月</Info>
           <IsCorrect>true</IsCorrect>
         </Answer>
         <Answer>
-          <Info>二月</Info>
+          <Info>三月</Info>
           <IsCorrect>true</IsCorrect>
         </Answer>
         <Answer>
-          <Info>十二個月</Info>
+          <Info>十二月</Info>
           <IsCorrect>true</IsCorrect>
         </Answer>
       </Answers>
@@ -23,7 +23,7 @@
       <AddScore>10</AddScore>
     </Question>
     <Question>
-      <Info>哪裡有山不能爬，有河沒有水，有路不能行，但大家去旅行就會帶著它，哪是什麼?</Info>
+      <Info>哪裡有山不能爬，有河沒有水，有路不能行，但大家去旅行就會帶著它，哪是什麼? (可多選)</Info>
       <Answers>
         <Answer>
           <Info>手機</Info>
@@ -153,7 +153,7 @@
       <AddScore>10</AddScore>
     </Question>
     <Question>
-      <Info>食蘋果時，咬下一口，發現竟有一條蟲，覺得好可怕；看到二條蟲，也覺得好可怕，但看到幾多條蟲，才讓人覺得最可怕?</Info>
+      <Info>食蘋果時，咬下一口，發現有多少條蟲，才讓人覺得最可怕?</Info>
       <Answers>
         <Answer>
           <Info>半條蟲</Info>

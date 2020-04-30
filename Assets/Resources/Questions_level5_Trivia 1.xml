@@ -2,7 +2,7 @@
 <Data xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Questions>
     <Question>
-      <Info>俄羅斯的面積比什麼還要大?</Info>
+      <Info>俄羅斯的面積比什麼還要大? (可多選)</Info>
       <Answers>
         <Answer>
           <Info>中國</Info>

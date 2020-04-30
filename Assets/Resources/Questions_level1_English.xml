@@ -22,7 +22,7 @@
         </Answer>
       </Answers>
       <UseTimer>false</UseTimer>
-      <Timer>15</Timer>
+      <Timer>0</Timer>
       <Type>Single</Type>
       <AddScore>10</AddScore>
     </Question>
@@ -47,7 +47,7 @@
         </Answer>
       </Answers>
       <UseTimer>false</UseTimer>
-      <Timer>15</Timer>
+      <Timer>0</Timer>
       <Type>Single</Type>
       <AddScore>10</AddScore>
     </Question>
@@ -72,7 +72,7 @@
         </Answer>
       </Answers>
       <UseTimer>false</UseTimer>
-      <Timer>15</Timer>
+      <Timer>0</Timer>
       <Type>Single</Type>
       <AddScore>10</AddScore>
     </Question>
@@ -97,7 +97,7 @@
         </Answer>
       </Answers>
       <UseTimer>false</UseTimer>
-      <Timer>15</Timer>
+      <Timer>0</Timer>
       <Type>Single</Type>
       <AddScore>10</AddScore>
     </Question>
@@ -122,7 +122,7 @@
         </Answer>
       </Answers>
       <UseTimer>false</UseTimer>
-      <Timer>15</Timer>
+      <Timer>0</Timer>
       <Type>Single</Type>
       <AddScore>10</AddScore>
     </Question>
@@ -147,7 +147,7 @@
         </Answer>
       </Answers>
       <UseTimer>false</UseTimer>
-      <Timer>15</Timer>
+      <Timer>0</Timer>
       <Type>Single</Type>
       <AddScore>10</AddScore>
     </Question>
@@ -172,7 +172,7 @@
         </Answer>
       </Answers>
       <UseTimer>false</UseTimer>
-      <Timer>15</Timer>
+      <Timer>0</Timer>
       <Type>Single</Type>
       <AddScore>10</AddScore>
     </Question>
@@ -197,7 +197,7 @@
         </Answer>
       </Answers>
       <UseTimer>false</UseTimer>
-      <Timer>15</Timer>
+      <Timer>0</Timer>
       <Type>Single</Type>
       <AddScore>10</AddScore>
     </Question>
@@ -222,7 +222,7 @@
         </Answer>
       </Answers>
       <UseTimer>false</UseTimer>
-      <Timer>15</Timer>
+      <Timer>0</Timer>
       <Type>Single</Type>
       <AddScore>10</AddScore>
     </Question>
@@ -247,7 +247,7 @@
         </Answer>
       </Answers>
       <UseTimer>false</UseTimer>
-      <Timer>15</Timer>
+      <Timer>0</Timer>
       <Type>Single</Type>
       <AddScore>10</AddScore>
     </Question>

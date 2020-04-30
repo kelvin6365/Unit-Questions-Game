@@ -61,7 +61,7 @@
       <AddScore>10</AddScore>
     </Question>
     <Question>
-      <Info>以下什麼打噴嚏的方式是不可能的?</Info>
+      <Info>以下什麼打噴嚏的方式是不可能的? (可多選)</Info>
       <Answers>
         <Answer>
           <Info>閉著眼睛</Info>

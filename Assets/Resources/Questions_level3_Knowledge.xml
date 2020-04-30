@@ -2,7 +2,7 @@
 <Data xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Questions>
     <Question>
-      <Info>下列哪些動物在非洲的原野上是很難看到的？（多選）</Info>
+      <Info>下列哪些動物在非洲的原野上是很難看到的？ (可多選)</Info>
       <Answers>
         <Answer>
           <Info>獅子</Info>

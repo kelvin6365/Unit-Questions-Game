@@ -19,7 +19,7 @@
       <AddScore>10</AddScore>
     </Question>
     <Question>
-      <Info>甚麼貓不吃魚?</Info>
+      <Info>甚麼貓不吃魚? (可多選)</Info>
       <Answers>
         <Answer>
           <Info>加菲貓</Info>
