@@ -4553,7 +4553,7 @@ MonoBehaviour:
     m_FontSize: 180
     m_FontStyle: 1
     m_BestFit: 1
-    m_MinSize: 140
+    m_MinSize: 80
     m_MaxSize: 192
     m_Alignment: 4
     m_AlignByGeometry: 0
